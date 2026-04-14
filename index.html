@@ -30,7 +30,7 @@
         <div class="card p-6 mb-6 flex flex-col md:flex-row justify-between items-center shadow-lg border-b-4 border-blue-500">
             <div>
                 <h1 class="text-3xl font-black text-white mb-2">HK Quant Master V5.5 <span class="text-blue-500">體質防護版</span></h1>
-                <p class="text-slate-400 text-sm">技術面發掘買點，動態防護網鎖定底氣 | 最後更新：2026-04-13 10:14</p>
+                <p class="text-slate-400 text-sm">技術面發掘買點，動態防護網鎖定底氣 | 最後更新：2026-04-14 09:55</p>
             </div>
             <div class="mt-4 md:mt-0 text-right bg-slate-900 p-4 rounded-lg border border-slate-700">
                 <p class="text-xs text-slate-400 mb-1">自動判斷當前大盤狀態</p>
@@ -48,7 +48,59 @@
         <div id="tab-scan" class="tab-content block">
             <div class="flex flex-col lg:flex-row gap-6">
                 <div class="lg:w-2/5 flex flex-col gap-4 overflow-y-auto max-h-[850px] pr-2">
-                    <h2 class="text-xl font-bold border-b border-slate-700 pb-2 sticky top-0 bg-[#0f172a] z-10 pt-2">🎯 嚴選觸發標的 (4)</h2>
+                    <h2 class="text-xl font-bold border-b border-slate-700 pb-2 sticky top-0 bg-[#0f172a] z-10 pt-2">🎯 嚴選觸發標的 (13)</h2>
+
+                    <div class="card p-4 cursor-pointer hover:bg-slate-700 transition shadow" onclick="loadChart('0005.HK')">
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="text-2xl font-black text-white">0005.HK <span class="text-lg text-slate-300 ml-1">匯豐控股</span></div>
+                            <div class="text-xs px-2 py-1 rounded border bg-green-900/50 text-green-400 border-green-700 whitespace-nowrap ml-2">海龜突破 (順勢)</div>
+                        </div>
+
+                        <div class="text-xs font-bold text-yellow-400 mb-3 border-b border-slate-700 pb-2">
+                            🔥 最新訊號 (第1天) | RSI: 75.1
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2 mb-2 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股息殖利率</span>
+                                <span class="text-slate-300 text-sm">4.22%</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">近期業績動能</span>
+                                <span class="text-green-400 font-bold text-sm">強勁成長 (+2397.9%)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-3 gap-2 mb-3 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">本益比(P/E)</span>
+                                <span class="text-slate-300 font-bold text-sm">15.0</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股價淨值比(P/B)</span>
+                                <span class="text-slate-300 font-bold text-sm">1.74</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">ROE</span>
+                                <span class="text-slate-300 font-bold text-sm">11.62%</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-2 text-center bg-slate-900 p-2 rounded border border-slate-700">
+                            <div>
+                                <div class="text-[10px] text-slate-500">現價進場</div>
+                                <div class="font-bold text-white">$141.0</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-red-400">嚴格止損</div>
+                                <div class="font-bold text-red-400">$126.9</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-green-400">目標止盈</div>
+                                <div class="font-bold text-green-400">$183.3</div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="card p-4 cursor-pointer hover:bg-slate-700 transition shadow" onclick="loadChart('0267.HK')">
                         <div class="flex justify-between items-center mb-2">
@@ -57,13 +109,13 @@
                         </div>
 
                         <div class="text-xs font-bold text-slate-400 mb-3 border-b border-slate-700 pb-2">
-                            ⚡ 連續觸發 2 天 | RSI: 80.7
+                            ⚡ 連續觸發 3 天 | RSI: 82.0
                         </div>
 
                         <div class="grid grid-cols-2 gap-2 mb-2 bg-slate-800 p-2 rounded">
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">股息殖利率</span>
-                                <span class="text-slate-300 text-sm">5.19%</span>
+                                <span class="text-slate-300 text-sm">5.15%</span>
                             </div>
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">近期業績動能</span>
@@ -74,11 +126,11 @@
                         <div class="grid grid-cols-3 gap-2 mb-3 bg-slate-800 p-2 rounded">
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">本益比(P/E)</span>
-                                <span class="text-slate-300 font-bold text-sm">5.54</span>
+                                <span class="text-slate-300 font-bold text-sm">5.61</span>
                             </div>
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">股價淨值比(P/B)</span>
-                                <span class="text-slate-300 font-bold text-sm">0.41</span>
+                                <span class="text-slate-300 font-bold text-sm">0.42</span>
                             </div>
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">ROE</span>
@@ -89,15 +141,15 @@
                         <div class="grid grid-cols-3 gap-2 text-center bg-slate-900 p-2 rounded border border-slate-700">
                             <div>
                                 <div class="text-[10px] text-slate-500">現價進場</div>
-                                <div class="font-bold text-white">$12.74</div>
+                                <div class="font-bold text-white">$12.97</div>
                             </div>
                             <div>
                                 <div class="text-[10px] text-red-400">嚴格止損</div>
-                                <div class="font-bold text-red-400">$11.47</div>
+                                <div class="font-bold text-red-400">$11.67</div>
                             </div>
                             <div>
                                 <div class="text-[10px] text-green-400">目標止盈</div>
-                                <div class="font-bold text-green-400">$16.56</div>
+                                <div class="font-bold text-green-400">$16.86</div>
                             </div>
                         </div>
                     </div>
@@ -108,14 +160,14 @@
                             <div class="text-xs px-2 py-1 rounded border bg-green-900/50 text-green-400 border-green-700 whitespace-nowrap ml-2">海龜突破 (順勢)</div>
                         </div>
 
-                        <div class="text-xs font-bold text-yellow-400 mb-3 border-b border-slate-700 pb-2">
-                            🔥 最新訊號 (第1天) | RSI: 61.3
+                        <div class="text-xs font-bold text-slate-400 mb-3 border-b border-slate-700 pb-2">
+                            ⚡ 連續觸發 2 天 | RSI: 69.6
                         </div>
 
                         <div class="grid grid-cols-2 gap-2 mb-2 bg-slate-800 p-2 rounded">
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">股息殖利率</span>
-                                <span class="text-green-400 font-black text-sm">62.0%</span>
+                                <span class="text-green-400 font-black text-sm">58.0%</span>
                             </div>
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">近期業績動能</span>
@@ -126,11 +178,11 @@
                         <div class="grid grid-cols-3 gap-2 mb-3 bg-slate-800 p-2 rounded">
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">本益比(P/E)</span>
-                                <span class="text-slate-300 font-bold text-sm">45.27</span>
+                                <span class="text-slate-300 font-bold text-sm">48.27</span>
                             </div>
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">股價淨值比(P/B)</span>
-                                <span class="text-slate-300 font-bold text-sm">2.89</span>
+                                <span class="text-slate-300 font-bold text-sm">3.08</span>
                             </div>
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">ROE</span>
@@ -141,67 +193,431 @@
                         <div class="grid grid-cols-3 gap-2 text-center bg-slate-900 p-2 rounded border border-slate-700">
                             <div>
                                 <div class="text-[10px] text-slate-500">現價進場</div>
-                                <div class="font-bold text-white">$117.7</div>
+                                <div class="font-bold text-white">$125.5</div>
                             </div>
                             <div>
                                 <div class="text-[10px] text-red-400">嚴格止損</div>
-                                <div class="font-bold text-red-400">$105.93</div>
+                                <div class="font-bold text-red-400">$112.95</div>
                             </div>
                             <div>
                                 <div class="text-[10px] text-green-400">目標止盈</div>
-                                <div class="font-bold text-green-400">$153.01</div>
+                                <div class="font-bold text-green-400">$163.15</div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card p-4 cursor-pointer hover:bg-slate-700 transition shadow" onclick="loadChart('1211.HK')">
+                    <div class="card p-4 cursor-pointer hover:bg-slate-700 transition shadow" onclick="loadChart('0576.HK')">
                         <div class="flex justify-between items-center mb-2">
-                            <div class="text-2xl font-black text-white">1211.HK <span class="text-lg text-slate-300 ml-1">比亞迪股份</span></div>
+                            <div class="text-2xl font-black text-white">0576.HK <span class="text-lg text-slate-300 ml-1">浙江滬杭甬</span></div>
                             <div class="text-xs px-2 py-1 rounded border bg-green-900/50 text-green-400 border-green-700 whitespace-nowrap ml-2">海龜突破 (順勢)</div>
                         </div>
 
                         <div class="text-xs font-bold text-yellow-400 mb-3 border-b border-slate-700 pb-2">
-                            🔥 最新訊號 (第1天) | RSI: 60.5
+                            🔥 最新訊號 (第1天) | RSI: 94.3
                         </div>
 
                         <div class="grid grid-cols-2 gap-2 mb-2 bg-slate-800 p-2 rounded">
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">股息殖利率</span>
-                                <span class="text-slate-300 text-sm">1.38%</span>
+                                <span class="text-slate-300 text-sm">5.83%</span>
                             </div>
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">近期業績動能</span>
-                                <span class="text-red-400 font-bold text-sm">衰退中 (-40.5%)</span>
+                                <span class="text-red-400 font-bold text-sm">衰退中 (-22.3%)</span>
                             </div>
                         </div>
                         
                         <div class="grid grid-cols-3 gap-2 mb-3 bg-slate-800 p-2 rounded">
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">本益比(P/E)</span>
-                                <span class="text-slate-300 font-bold text-sm">26.84</span>
+                                <span class="text-slate-300 font-bold text-sm">7.63</span>
                             </div>
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">股價淨值比(P/B)</span>
-                                <span class="text-slate-300 font-bold text-sm">3.84</span>
+                                <span class="text-slate-300 font-bold text-sm">0.81</span>
                             </div>
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">ROE</span>
-                                <span class="text-slate-300 font-bold text-sm">14.77%</span>
+                                <span class="text-slate-300 font-bold text-sm">9.43%</span>
                             </div>
                         </div>
 
                         <div class="grid grid-cols-3 gap-2 text-center bg-slate-900 p-2 rounded border border-slate-700">
                             <div>
                                 <div class="text-[10px] text-slate-500">現價進場</div>
-                                <div class="font-bold text-white">$110.3</div>
+                                <div class="font-bold text-white">$7.78</div>
                             </div>
                             <div>
                                 <div class="text-[10px] text-red-400">嚴格止損</div>
-                                <div class="font-bold text-red-400">$99.27</div>
+                                <div class="font-bold text-red-400">$7.0</div>
                             </div>
                             <div>
                                 <div class="text-[10px] text-green-400">目標止盈</div>
-                                <div class="font-bold text-green-400">$143.39</div>
+                                <div class="font-bold text-green-400">$10.11</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-4 cursor-pointer hover:bg-slate-700 transition shadow" onclick="loadChart('0992.HK')">
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="text-2xl font-black text-white">0992.HK <span class="text-lg text-slate-300 ml-1">聯想集團</span></div>
+                            <div class="text-xs px-2 py-1 rounded border bg-green-900/50 text-green-400 border-green-700 whitespace-nowrap ml-2">海龜突破 (順勢)</div>
+                        </div>
+
+                        <div class="text-xs font-bold text-yellow-400 mb-3 border-b border-slate-700 pb-2">
+                            🔥 最新訊號 (第1天) | RSI: 69.5
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2 mb-2 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股息殖利率</span>
+                                <span class="text-slate-300 text-sm">3.87%</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">近期業績動能</span>
+                                <span class="text-red-400 font-bold text-sm">衰退中 (-27.1%)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-3 gap-2 mb-3 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">本益比(P/E)</span>
+                                <span class="text-slate-300 font-bold text-sm">10.98</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股價淨值比(P/B)</span>
+                                <span class="text-slate-300 font-bold text-sm">2.53</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">ROE</span>
+                                <span class="text-slate-300 font-bold text-sm">24.17%</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-2 text-center bg-slate-900 p-2 rounded border border-slate-700">
+                            <div>
+                                <div class="text-[10px] text-slate-500">現價進場</div>
+                                <div class="font-bold text-white">$10.43</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-red-400">嚴格止損</div>
+                                <div class="font-bold text-red-400">$9.39</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-green-400">目標止盈</div>
+                                <div class="font-bold text-green-400">$13.56</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-4 cursor-pointer hover:bg-slate-700 transition shadow" onclick="loadChart('0998.HK')">
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="text-2xl font-black text-white">0998.HK <span class="text-lg text-slate-300 ml-1">中信銀行</span></div>
+                            <div class="text-xs px-2 py-1 rounded border bg-green-900/50 text-green-400 border-green-700 whitespace-nowrap ml-2">海龜突破 (順勢)</div>
+                        </div>
+
+                        <div class="text-xs font-bold text-yellow-400 mb-3 border-b border-slate-700 pb-2">
+                            🔥 最新訊號 (第1天) | RSI: 79.8
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2 mb-2 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股息殖利率</span>
+                                <span class="text-slate-300 text-sm">5.33%</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">近期業績動能</span>
+                                <span class="text-green-400 font-bold text-sm">強勁成長 (+16.0%)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-3 gap-2 mb-3 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">本益比(P/E)</span>
+                                <span class="text-slate-300 font-bold text-sm">5.86</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股價淨值比(P/B)</span>
+                                <span class="text-slate-300 font-bold text-sm">0.54</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">ROE</span>
+                                <span class="text-slate-300 font-bold text-sm">8.64%</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-2 text-center bg-slate-900 p-2 rounded border border-slate-700">
+                            <div>
+                                <div class="text-[10px] text-slate-500">現價進場</div>
+                                <div class="font-bold text-white">$8.08</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-red-400">嚴格止損</div>
+                                <div class="font-bold text-red-400">$7.27</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-green-400">目標止盈</div>
+                                <div class="font-bold text-green-400">$10.5</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-4 cursor-pointer hover:bg-slate-700 transition shadow" onclick="loadChart('1113.HK')">
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="text-2xl font-black text-white">1113.HK <span class="text-lg text-slate-300 ml-1">長實集團</span></div>
+                            <div class="text-xs px-2 py-1 rounded border bg-green-900/50 text-green-400 border-green-700 whitespace-nowrap ml-2">海龜突破 (順勢)</div>
+                        </div>
+
+                        <div class="text-xs font-bold text-yellow-400 mb-3 border-b border-slate-700 pb-2">
+                            🔥 最新訊號 (第1天) | RSI: 65.5
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2 mb-2 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股息殖利率</span>
+                                <span class="text-slate-300 text-sm">3.73%</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">近期業績動能</span>
+                                <span class="text-red-400 font-bold text-sm">衰退中 (-7.5%)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-3 gap-2 mb-3 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">本益比(P/E)</span>
+                                <span class="text-slate-300 font-bold text-sm">15.59</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股價淨值比(P/B)</span>
+                                <span class="text-slate-300 font-bold text-sm">0.43</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">ROE</span>
+                                <span class="text-slate-300 font-bold text-sm">2.75%</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-2 text-center bg-slate-900 p-2 rounded border border-slate-700">
+                            <div>
+                                <div class="text-[10px] text-slate-500">現價進場</div>
+                                <div class="font-bold text-white">$48.34</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-red-400">嚴格止損</div>
+                                <div class="font-bold text-red-400">$43.51</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-green-400">目標止盈</div>
+                                <div class="font-bold text-green-400">$62.84</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-4 cursor-pointer hover:bg-slate-700 transition shadow" onclick="loadChart('1258.HK')">
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="text-2xl font-black text-white">1258.HK <span class="text-lg text-slate-300 ml-1">中國有色礦業</span></div>
+                            <div class="text-xs px-2 py-1 rounded border bg-green-900/50 text-green-400 border-green-700 whitespace-nowrap ml-2">海龜突破 (順勢)</div>
+                        </div>
+
+                        <div class="text-xs font-bold text-yellow-400 mb-3 border-b border-slate-700 pb-2">
+                            🔥 最新訊號 (第1天) | RSI: 68.1
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2 mb-2 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股息殖利率</span>
+                                <span class="text-slate-300 text-sm">2.44%</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">近期業績動能</span>
+                                <span class="text-red-400 font-bold text-sm">衰退中 (-21.4%)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-3 gap-2 mb-3 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">本益比(P/E)</span>
+                                <span class="text-slate-300 font-bold text-sm">16.79</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股價淨值比(P/B)</span>
+                                <span class="text-slate-300 font-bold text-sm">2.73</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">ROE</span>
+                                <span class="text-slate-300 font-bold text-sm">18.11%</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-2 text-center bg-slate-900 p-2 rounded border border-slate-700">
+                            <div>
+                                <div class="text-[10px] text-slate-500">現價進場</div>
+                                <div class="font-bold text-white">$13.6</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-red-400">嚴格止損</div>
+                                <div class="font-bold text-red-400">$12.24</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-green-400">目標止盈</div>
+                                <div class="font-bold text-green-400">$17.68</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-4 cursor-pointer hover:bg-slate-700 transition shadow" onclick="loadChart('1398.HK')">
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="text-2xl font-black text-white">1398.HK <span class="text-lg text-slate-300 ml-1">工商銀行</span></div>
+                            <div class="text-xs px-2 py-1 rounded border bg-green-900/50 text-green-400 border-green-700 whitespace-nowrap ml-2">海龜突破 (順勢)</div>
+                        </div>
+
+                        <div class="text-xs font-bold text-yellow-400 mb-3 border-b border-slate-700 pb-2">
+                            🔥 最新訊號 (第1天) | RSI: 69.0
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2 mb-2 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股息殖利率</span>
+                                <span class="text-slate-300 text-sm">4.97%</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">近期業績動能</span>
+                                <span class="text-green-400 font-bold text-sm">溫和復甦 (+3.8%)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-3 gap-2 mb-3 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">本益比(P/E)</span>
+                                <span class="text-slate-300 font-bold text-sm">6.11</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股價淨值比(P/B)</span>
+                                <span class="text-slate-300 font-bold text-sm">0.57</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">ROE</span>
+                                <span class="text-slate-300 font-bold text-sm">8.98%</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-2 text-center bg-slate-900 p-2 rounded border border-slate-700">
+                            <div>
+                                <div class="text-[10px] text-slate-500">現價進場</div>
+                                <div class="font-bold text-white">$7.03</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-red-400">嚴格止損</div>
+                                <div class="font-bold text-red-400">$6.33</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-green-400">目標止盈</div>
+                                <div class="font-bold text-green-400">$9.14</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-4 cursor-pointer hover:bg-slate-700 transition shadow" onclick="loadChart('2269.HK')">
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="text-2xl font-black text-white">2269.HK <span class="text-lg text-slate-300 ml-1">藥明生物</span></div>
+                            <div class="text-xs px-2 py-1 rounded border bg-green-900/50 text-green-400 border-green-700 whitespace-nowrap ml-2">海龜突破 (順勢)</div>
+                        </div>
+
+                        <div class="text-xs font-bold text-yellow-400 mb-3 border-b border-slate-700 pb-2">
+                            🔥 最新訊號 (第1天) | RSI: 62.0
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2 mb-2 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股息殖利率</span>
+                                <span class="text-slate-300 text-sm">0%</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">近期業績動能</span>
+                                <span class="text-green-400 font-bold text-sm">強勁成長 (+39.4%)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-3 gap-2 mb-3 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">本益比(P/E)</span>
+                                <span class="text-slate-300 font-bold text-sm">27.98</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股價淨值比(P/B)</span>
+                                <span class="text-slate-300 font-bold text-sm">2.84</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">ROE</span>
+                                <span class="text-slate-300 font-bold text-sm">11.64%</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-2 text-center bg-slate-900 p-2 rounded border border-slate-700">
+                            <div>
+                                <div class="text-[10px] text-slate-500">現價進場</div>
+                                <div class="font-bold text-white">$37.22</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-red-400">嚴格止損</div>
+                                <div class="font-bold text-red-400">$33.5</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-green-400">目標止盈</div>
+                                <div class="font-bold text-green-400">$48.39</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-4 cursor-pointer hover:bg-slate-700 transition shadow" onclick="loadChart('2618.HK')">
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="text-2xl font-black text-white">2618.HK <span class="text-lg text-slate-300 ml-1">京東物流</span></div>
+                            <div class="text-xs px-2 py-1 rounded border bg-green-900/50 text-green-400 border-green-700 whitespace-nowrap ml-2">海龜突破 (順勢)</div>
+                        </div>
+
+                        <div class="text-xs font-bold text-yellow-400 mb-3 border-b border-slate-700 pb-2">
+                            🔥 最新訊號 (第1天) | RSI: 71.5
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2 mb-2 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股息殖利率</span>
+                                <span class="text-slate-300 text-sm">0%</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">近期業績動能</span>
+                                <span class="text-green-400 font-bold text-sm">溫和復甦 (+12.9%)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-3 gap-2 mb-3 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">本益比(P/E)</span>
+                                <span class="text-slate-300 font-bold text-sm">12.83</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股價淨值比(P/B)</span>
+                                <span class="text-slate-300 font-bold text-sm">1.53</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">ROE</span>
+                                <span class="text-slate-300 font-bold text-sm">11.23%</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-2 text-center bg-slate-900 p-2 rounded border border-slate-700">
+                            <div>
+                                <div class="text-[10px] text-slate-500">現價進場</div>
+                                <div class="font-bold text-white">$15.27</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-red-400">嚴格止損</div>
+                                <div class="font-bold text-red-400">$13.74</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-green-400">目標止盈</div>
+                                <div class="font-bold text-green-400">$19.85</div>
                             </div>
                         </div>
                     </div>
@@ -213,7 +629,7 @@
                         </div>
 
                         <div class="text-xs font-bold text-slate-400 mb-3 border-b border-slate-700 pb-2">
-                            ⚡ 連續觸發 2 天 | RSI: 81.9
+                            ⚡ 連續觸發 3 天 | RSI: 81.6
                         </div>
 
                         <div class="grid grid-cols-2 gap-2 mb-2 bg-slate-800 p-2 rounded">
@@ -230,11 +646,11 @@
                         <div class="grid grid-cols-3 gap-2 mb-3 bg-slate-800 p-2 rounded">
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">本益比(P/E)</span>
-                                <span class="text-slate-300 font-bold text-sm">5.92</span>
+                                <span class="text-slate-300 font-bold text-sm">6.0</span>
                             </div>
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">股價淨值比(P/B)</span>
-                                <span class="text-slate-300 font-bold text-sm">0.53</span>
+                                <span class="text-slate-300 font-bold text-sm">0.54</span>
                             </div>
                             <div class="info-badge">
                                 <span class="text-slate-400 block mb-1">ROE</span>
@@ -245,15 +661,67 @@
                         <div class="grid grid-cols-3 gap-2 text-center bg-slate-900 p-2 rounded border border-slate-700">
                             <div>
                                 <div class="text-[10px] text-slate-500">現價進場</div>
-                                <div class="font-bold text-white">$7.11</div>
+                                <div class="font-bold text-white">$7.2</div>
                             </div>
                             <div>
                                 <div class="text-[10px] text-red-400">嚴格止損</div>
-                                <div class="font-bold text-red-400">$6.4</div>
+                                <div class="font-bold text-red-400">$6.48</div>
                             </div>
                             <div>
                                 <div class="text-[10px] text-green-400">目標止盈</div>
-                                <div class="font-bold text-green-400">$9.24</div>
+                                <div class="font-bold text-green-400">$9.36</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-4 cursor-pointer hover:bg-slate-700 transition shadow" onclick="loadChart('3988.HK')">
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="text-2xl font-black text-white">3988.HK <span class="text-lg text-slate-300 ml-1">中國銀行</span></div>
+                            <div class="text-xs px-2 py-1 rounded border bg-green-900/50 text-green-400 border-green-700 whitespace-nowrap ml-2">海龜突破 (順勢)</div>
+                        </div>
+
+                        <div class="text-xs font-bold text-yellow-400 mb-3 border-b border-slate-700 pb-2">
+                            🔥 最新訊號 (第1天) | RSI: 78.1
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2 mb-2 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股息殖利率</span>
+                                <span class="text-slate-300 text-sm">5.02%</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">近期業績動能</span>
+                                <span class="text-red-400 font-bold text-sm">衰退中 (-7.2%)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-3 gap-2 mb-3 bg-slate-800 p-2 rounded">
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">本益比(P/E)</span>
+                                <span class="text-slate-300 font-bold text-sm">6.01</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">股價淨值比(P/B)</span>
+                                <span class="text-slate-300 font-bold text-sm">0.53</span>
+                            </div>
+                            <div class="info-badge">
+                                <span class="text-slate-400 block mb-1">ROE</span>
+                                <span class="text-slate-300 font-bold text-sm">8.37%</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-2 text-center bg-slate-900 p-2 rounded border border-slate-700">
+                            <div>
+                                <div class="text-[10px] text-slate-500">現價進場</div>
+                                <div class="font-bold text-white">$5.11</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-red-400">嚴格止損</div>
+                                <div class="font-bold text-red-400">$4.6</div>
+                            </div>
+                            <div>
+                                <div class="text-[10px] text-green-400">目標止盈</div>
+                                <div class="font-bold text-green-400">$6.64</div>
                             </div>
                         </div>
                     </div>
@@ -350,6 +818,188 @@
                     <tbody class="text-sm text-slate-300">
 
                         <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
+                            <td class="p-3">2026-04-14</td>
+                            <td class="p-3 font-bold text-white">3988.HK<br><span class="text-xs text-slate-400 font-normal">中國銀行</span></td>
+                            <td class="p-3 text-green-400">海龜突破 (順勢)</td>
+                            <td class="p-3 text-xs text-slate-400 leading-relaxed">股息: 5.02% | 動能: 衰退中 (-7.2%)<br>P/E: 6.01 | P/B: 0.53 | ROE: 8.37%</td>
+                            <td class="p-3 text-right">$5.11</td>
+                            <td class="p-3 text-xs text-right">
+                                <span class="text-red-400">SL: $4.6</span><br>
+                                <span class="text-green-400">TP: $6.64</span>
+                            </td>
+                            <td class="p-3 text-right text-slate-300">$5.11</td>
+                            <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
+                        </tr>
+        
+                        <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
+                            <td class="p-3">2026-04-14</td>
+                            <td class="p-3 font-bold text-white">3618.HK<br><span class="text-xs text-slate-400 font-normal">重慶農村商業銀行</span></td>
+                            <td class="p-3 text-green-400">海龜突破 (順勢)</td>
+                            <td class="p-3 text-xs text-slate-400 leading-relaxed">股息: 4.84% | 動能: 強勁成長 (+29.4%)<br>P/E: 6.0 | P/B: 0.54 | ROE: 9.07%</td>
+                            <td class="p-3 text-right">$7.2</td>
+                            <td class="p-3 text-xs text-right">
+                                <span class="text-red-400">SL: $6.48</span><br>
+                                <span class="text-green-400">TP: $9.36</span>
+                            </td>
+                            <td class="p-3 text-right text-slate-300">$7.2</td>
+                            <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
+                        </tr>
+        
+                        <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
+                            <td class="p-3">2026-04-14</td>
+                            <td class="p-3 font-bold text-white">2618.HK<br><span class="text-xs text-slate-400 font-normal">京東物流</span></td>
+                            <td class="p-3 text-green-400">海龜突破 (順勢)</td>
+                            <td class="p-3 text-xs text-slate-400 leading-relaxed">股息: 0% | 動能: 溫和復甦 (+12.9%)<br>P/E: 12.83 | P/B: 1.53 | ROE: 11.23%</td>
+                            <td class="p-3 text-right">$15.27</td>
+                            <td class="p-3 text-xs text-right">
+                                <span class="text-red-400">SL: $13.74</span><br>
+                                <span class="text-green-400">TP: $19.85</span>
+                            </td>
+                            <td class="p-3 text-right text-slate-300">$15.27</td>
+                            <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
+                        </tr>
+        
+                        <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
+                            <td class="p-3">2026-04-14</td>
+                            <td class="p-3 font-bold text-white">2269.HK<br><span class="text-xs text-slate-400 font-normal">藥明生物</span></td>
+                            <td class="p-3 text-green-400">海龜突破 (順勢)</td>
+                            <td class="p-3 text-xs text-slate-400 leading-relaxed">股息: 0% | 動能: 強勁成長 (+39.4%)<br>P/E: 27.98 | P/B: 2.84 | ROE: 11.64%</td>
+                            <td class="p-3 text-right">$37.22</td>
+                            <td class="p-3 text-xs text-right">
+                                <span class="text-red-400">SL: $33.5</span><br>
+                                <span class="text-green-400">TP: $48.39</span>
+                            </td>
+                            <td class="p-3 text-right text-slate-300">$37.22</td>
+                            <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
+                        </tr>
+        
+                        <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
+                            <td class="p-3">2026-04-14</td>
+                            <td class="p-3 font-bold text-white">1398.HK<br><span class="text-xs text-slate-400 font-normal">工商銀行</span></td>
+                            <td class="p-3 text-green-400">海龜突破 (順勢)</td>
+                            <td class="p-3 text-xs text-slate-400 leading-relaxed">股息: 4.97% | 動能: 溫和復甦 (+3.8%)<br>P/E: 6.11 | P/B: 0.57 | ROE: 8.98%</td>
+                            <td class="p-3 text-right">$7.03</td>
+                            <td class="p-3 text-xs text-right">
+                                <span class="text-red-400">SL: $6.33</span><br>
+                                <span class="text-green-400">TP: $9.14</span>
+                            </td>
+                            <td class="p-3 text-right text-slate-300">$7.03</td>
+                            <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
+                        </tr>
+        
+                        <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
+                            <td class="p-3">2026-04-14</td>
+                            <td class="p-3 font-bold text-white">1258.HK<br><span class="text-xs text-slate-400 font-normal">中國有色礦業</span></td>
+                            <td class="p-3 text-green-400">海龜突破 (順勢)</td>
+                            <td class="p-3 text-xs text-slate-400 leading-relaxed">股息: 2.44% | 動能: 衰退中 (-21.4%)<br>P/E: 16.79 | P/B: 2.73 | ROE: 18.11%</td>
+                            <td class="p-3 text-right">$13.6</td>
+                            <td class="p-3 text-xs text-right">
+                                <span class="text-red-400">SL: $12.24</span><br>
+                                <span class="text-green-400">TP: $17.68</span>
+                            </td>
+                            <td class="p-3 text-right text-slate-300">$13.6</td>
+                            <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
+                        </tr>
+        
+                        <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
+                            <td class="p-3">2026-04-14</td>
+                            <td class="p-3 font-bold text-white">1113.HK<br><span class="text-xs text-slate-400 font-normal">長實集團</span></td>
+                            <td class="p-3 text-green-400">海龜突破 (順勢)</td>
+                            <td class="p-3 text-xs text-slate-400 leading-relaxed">股息: 3.73% | 動能: 衰退中 (-7.5%)<br>P/E: 15.59 | P/B: 0.43 | ROE: 2.75%</td>
+                            <td class="p-3 text-right">$48.34</td>
+                            <td class="p-3 text-xs text-right">
+                                <span class="text-red-400">SL: $43.51</span><br>
+                                <span class="text-green-400">TP: $62.84</span>
+                            </td>
+                            <td class="p-3 text-right text-slate-300">$48.34</td>
+                            <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
+                        </tr>
+        
+                        <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
+                            <td class="p-3">2026-04-14</td>
+                            <td class="p-3 font-bold text-white">0998.HK<br><span class="text-xs text-slate-400 font-normal">中信銀行</span></td>
+                            <td class="p-3 text-green-400">海龜突破 (順勢)</td>
+                            <td class="p-3 text-xs text-slate-400 leading-relaxed">股息: 5.33% | 動能: 強勁成長 (+16.0%)<br>P/E: 5.86 | P/B: 0.54 | ROE: 8.64%</td>
+                            <td class="p-3 text-right">$8.08</td>
+                            <td class="p-3 text-xs text-right">
+                                <span class="text-red-400">SL: $7.27</span><br>
+                                <span class="text-green-400">TP: $10.5</span>
+                            </td>
+                            <td class="p-3 text-right text-slate-300">$8.08</td>
+                            <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
+                        </tr>
+        
+                        <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
+                            <td class="p-3">2026-04-14</td>
+                            <td class="p-3 font-bold text-white">0992.HK<br><span class="text-xs text-slate-400 font-normal">聯想集團</span></td>
+                            <td class="p-3 text-green-400">海龜突破 (順勢)</td>
+                            <td class="p-3 text-xs text-slate-400 leading-relaxed">股息: 3.87% | 動能: 衰退中 (-27.1%)<br>P/E: 10.98 | P/B: 2.53 | ROE: 24.17%</td>
+                            <td class="p-3 text-right">$10.43</td>
+                            <td class="p-3 text-xs text-right">
+                                <span class="text-red-400">SL: $9.39</span><br>
+                                <span class="text-green-400">TP: $13.56</span>
+                            </td>
+                            <td class="p-3 text-right text-slate-300">$10.43</td>
+                            <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
+                        </tr>
+        
+                        <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
+                            <td class="p-3">2026-04-14</td>
+                            <td class="p-3 font-bold text-white">0576.HK<br><span class="text-xs text-slate-400 font-normal">浙江滬杭甬</span></td>
+                            <td class="p-3 text-green-400">海龜突破 (順勢)</td>
+                            <td class="p-3 text-xs text-slate-400 leading-relaxed">股息: 5.83% | 動能: 衰退中 (-22.3%)<br>P/E: 7.63 | P/B: 0.81 | ROE: 9.43%</td>
+                            <td class="p-3 text-right">$7.78</td>
+                            <td class="p-3 text-xs text-right">
+                                <span class="text-red-400">SL: $7.0</span><br>
+                                <span class="text-green-400">TP: $10.11</span>
+                            </td>
+                            <td class="p-3 text-right text-slate-300">$7.78</td>
+                            <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
+                        </tr>
+        
+                        <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
+                            <td class="p-3">2026-04-14</td>
+                            <td class="p-3 font-bold text-white">0522.HK<br><span class="text-xs text-slate-400 font-normal">ASMPT</span></td>
+                            <td class="p-3 text-green-400">海龜突破 (順勢)</td>
+                            <td class="p-3 text-xs text-slate-400 leading-relaxed">股息: 58.0% | 動能: 未公佈<br>P/E: 48.27 | P/B: 3.08 | ROE: 6.69%</td>
+                            <td class="p-3 text-right">$125.5</td>
+                            <td class="p-3 text-xs text-right">
+                                <span class="text-red-400">SL: $112.95</span><br>
+                                <span class="text-green-400">TP: $163.15</span>
+                            </td>
+                            <td class="p-3 text-right text-slate-300">$125.5</td>
+                            <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
+                        </tr>
+        
+                        <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
+                            <td class="p-3">2026-04-14</td>
+                            <td class="p-3 font-bold text-white">0267.HK<br><span class="text-xs text-slate-400 font-normal">中信股份</span></td>
+                            <td class="p-3 text-green-400">海龜突破 (順勢)</td>
+                            <td class="p-3 text-xs text-slate-400 leading-relaxed">股息: 5.15% | 動能: 衰退中 (-25.0%)<br>P/E: 5.61 | P/B: 0.42 | ROE: 7.93%</td>
+                            <td class="p-3 text-right">$12.97</td>
+                            <td class="p-3 text-xs text-right">
+                                <span class="text-red-400">SL: $11.67</span><br>
+                                <span class="text-green-400">TP: $16.86</span>
+                            </td>
+                            <td class="p-3 text-right text-slate-300">$12.97</td>
+                            <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
+                        </tr>
+        
+                        <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
+                            <td class="p-3">2026-04-14</td>
+                            <td class="p-3 font-bold text-white">0005.HK<br><span class="text-xs text-slate-400 font-normal">匯豐控股</span></td>
+                            <td class="p-3 text-green-400">海龜突破 (順勢)</td>
+                            <td class="p-3 text-xs text-slate-400 leading-relaxed">股息: 4.22% | 動能: 強勁成長 (+2397.9%)<br>P/E: 15.0 | P/B: 1.74 | ROE: 11.62%</td>
+                            <td class="p-3 text-right">$141.0</td>
+                            <td class="p-3 text-xs text-right">
+                                <span class="text-red-400">SL: $126.9</span><br>
+                                <span class="text-green-400">TP: $183.3</span>
+                            </td>
+                            <td class="p-3 text-right text-slate-300">$141.0</td>
+                            <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
+                        </tr>
+        
+                        <tr class="border-b border-slate-800 hover:bg-slate-700/50 transition">
                             <td class="p-3">2026-04-13</td>
                             <td class="p-3 font-bold text-white">3618.HK<br><span class="text-xs text-slate-400 font-normal">重慶農村商業銀行</span></td>
                             <td class="p-3 text-green-400">海龜突破 (順勢)</td>
@@ -359,7 +1009,7 @@
                                 <span class="text-red-400">SL: $6.4</span><br>
                                 <span class="text-green-400">TP: $9.24</span>
                             </td>
-                            <td class="p-3 text-right text-slate-300">$7.11</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$7.2</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -373,7 +1023,7 @@
                                 <span class="text-red-400">SL: $99.27</span><br>
                                 <span class="text-green-400">TP: $143.39</span>
                             </td>
-                            <td class="p-3 text-right text-slate-300">$110.3</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$109.4</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -387,7 +1037,7 @@
                                 <span class="text-red-400">SL: $105.93</span><br>
                                 <span class="text-green-400">TP: $153.01</span>
                             </td>
-                            <td class="p-3 text-right text-slate-300">$117.7</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$125.5</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -401,7 +1051,7 @@
                                 <span class="text-red-400">SL: $11.47</span><br>
                                 <span class="text-green-400">TP: $16.56</span>
                             </td>
-                            <td class="p-3 text-right text-slate-300">$12.74</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$12.97</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -415,7 +1065,7 @@
                                 <span class="text-red-400">SL: $6.39</span><br>
                                 <span class="text-green-400">TP: $9.23</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$7.11</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$7.2</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -429,7 +1079,7 @@
                                 <span class="text-red-400">SL: $20.7</span><br>
                                 <span class="text-green-400">TP: $29.9</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$22.22</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$22.04</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -443,7 +1093,7 @@
                                 <span class="text-red-400">SL: $6.89</span><br>
                                 <span class="text-green-400">TP: $9.96</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$7.68</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$7.78</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -457,7 +1107,7 @@
                                 <span class="text-red-400">SL: $9.75</span><br>
                                 <span class="text-green-400">TP: $14.08</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$10.67</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$10.69</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -471,7 +1121,7 @@
                                 <span class="text-red-400">SL: $11.38</span><br>
                                 <span class="text-green-400">TP: $16.43</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$12.74</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$12.97</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -485,7 +1135,7 @@
                                 <span class="text-red-400">SL: $46.66</span><br>
                                 <span class="text-green-400">TP: $67.4</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$51.55</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$51.05</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -499,7 +1149,7 @@
                                 <span class="text-red-400">SL: $57.69</span><br>
                                 <span class="text-green-400">TP: $83.33</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$63.4</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$64.05</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -513,7 +1163,7 @@
                                 <span class="text-red-400">SL: $46.66</span><br>
                                 <span class="text-green-400">TP: $67.4</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$52.4</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$52.0</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -527,7 +1177,7 @@
                                 <span class="text-red-400">SL: $20.39</span><br>
                                 <span class="text-green-400">TP: $29.46</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$22.22</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$22.04</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -541,7 +1191,7 @@
                                 <span class="text-red-400">SL: $6.77</span><br>
                                 <span class="text-green-400">TP: $9.78</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$7.68</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$7.78</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -555,7 +1205,7 @@
                                 <span class="text-red-400">SL: $7.51</span><br>
                                 <span class="text-green-400">TP: $10.84</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$8.15</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$8.25</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -569,7 +1219,7 @@
                                 <span class="text-red-400">SL: $21.94</span><br>
                                 <span class="text-green-400">TP: $31.69</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$24.94</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$24.84</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -583,7 +1233,7 @@
                                 <span class="text-red-400">SL: $45.68</span><br>
                                 <span class="text-green-400">TP: $65.98</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$52.4</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$52.0</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -597,7 +1247,7 @@
                                 <span class="text-red-400">SL: $43.85</span><br>
                                 <span class="text-green-400">TP: $63.34</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$46.7</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$46.98</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -611,7 +1261,7 @@
                                 <span class="text-red-400">SL: $8.85</span><br>
                                 <span class="text-green-400">TP: $12.78</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$9.81</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$9.86</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -625,7 +1275,7 @@
                                 <span class="text-red-400">SL: $31.3</span><br>
                                 <span class="text-green-400">TP: $45.21</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$33.24</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$32.98</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -639,7 +1289,7 @@
                                 <span class="text-red-400">SL: $69.35</span><br>
                                 <span class="text-green-400">TP: $100.17</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$79.8</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$82.55</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -653,7 +1303,7 @@
                                 <span class="text-red-400">SL: $79.79</span><br>
                                 <span class="text-green-400">TP: $115.25</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$87.4</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$87.0</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -667,7 +1317,7 @@
                                 <span class="text-red-400">SL: $9.11</span><br>
                                 <span class="text-green-400">TP: $13.16</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$10.07</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$10.43</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -681,7 +1331,7 @@
                                 <span class="text-red-400">SL: $6.75</span><br>
                                 <span class="text-green-400">TP: $9.75</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$7.68</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$7.78</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -695,7 +1345,7 @@
                                 <span class="text-red-400">SL: $11.02</span><br>
                                 <span class="text-green-400">TP: $15.92</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$12.74</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$12.97</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -709,7 +1359,7 @@
                                 <span class="text-red-400">SL: $124.74</span><br>
                                 <span class="text-green-400">TP: $180.18</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$138.8</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$141.0</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -723,7 +1373,7 @@
                                 <span class="text-red-400">SL: $56.79</span><br>
                                 <span class="text-green-400">TP: $82.03</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$63.4</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$64.05</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -737,7 +1387,7 @@
                                 <span class="text-red-400">SL: $2.24</span><br>
                                 <span class="text-green-400">TP: $3.06</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$2.75</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$2.72</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -751,7 +1401,7 @@
                                 <span class="text-red-400">SL: $2.24</span><br>
                                 <span class="text-green-400">TP: $3.06</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$2.75</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$2.72</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -765,7 +1415,7 @@
                                 <span class="text-red-400">SL: $2.24</span><br>
                                 <span class="text-green-400">TP: $3.06</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$2.75</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$2.72</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -779,7 +1429,7 @@
                                 <span class="text-red-400">SL: $2.24</span><br>
                                 <span class="text-green-400">TP: $3.06</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$2.75</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$2.72</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -793,7 +1443,7 @@
                                 <span class="text-red-400">SL: $3.55</span><br>
                                 <span class="text-green-400">TP: $4.84</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$4.04</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$3.98</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -807,7 +1457,7 @@
                                 <span class="text-red-400">SL: $6.16</span><br>
                                 <span class="text-green-400">TP: $8.4</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$6.61</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$6.4</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -821,7 +1471,7 @@
                                 <span class="text-red-400">SL: $24.32</span><br>
                                 <span class="text-green-400">TP: $33.17</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$28.16</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$27.84</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -835,7 +1485,7 @@
                                 <span class="text-red-400">SL: $12.75</span><br>
                                 <span class="text-green-400">TP: $17.39</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$15.8</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$15.41</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -849,7 +1499,7 @@
                                 <span class="text-red-400">SL: $6.95</span><br>
                                 <span class="text-green-400">TP: $9.48</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$8.47</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$8.73</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -863,7 +1513,7 @@
                                 <span class="text-red-400">SL: $7.56</span><br>
                                 <span class="text-green-400">TP: $10.31</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$9.87</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$9.56</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -877,7 +1527,7 @@
                                 <span class="text-red-400">SL: $18.23</span><br>
                                 <span class="text-green-400">TP: $24.86</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$20.64</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$20.84</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -891,7 +1541,7 @@
                                 <span class="text-red-400">SL: $41.17</span><br>
                                 <span class="text-green-400">TP: $56.14</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$48.06</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$48.0</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -905,7 +1555,7 @@
                                 <span class="text-red-400">SL: $4.75</span><br>
                                 <span class="text-green-400">TP: $6.48</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$5.52</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$5.5</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -919,7 +1569,7 @@
                                 <span class="text-red-400">SL: $3.3</span><br>
                                 <span class="text-green-400">TP: $4.5</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$3.58</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$3.6</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -933,7 +1583,7 @@
                                 <span class="text-red-400">SL: $2.56</span><br>
                                 <span class="text-green-400">TP: $3.49</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$2.98</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$2.88</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -947,7 +1597,7 @@
                                 <span class="text-red-400">SL: $6.27</span><br>
                                 <span class="text-green-400">TP: $8.56</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$6.61</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$6.4</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -961,7 +1611,7 @@
                                 <span class="text-red-400">SL: $24.29</span><br>
                                 <span class="text-green-400">TP: $33.12</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$28.16</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$27.84</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -989,7 +1639,7 @@
                                 <span class="text-red-400">SL: $12.88</span><br>
                                 <span class="text-green-400">TP: $17.57</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$15.8</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$15.41</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1003,7 +1653,7 @@
                                 <span class="text-red-400">SL: $6.3</span><br>
                                 <span class="text-green-400">TP: $8.59</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$7.45</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$7.37</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1017,7 +1667,7 @@
                                 <span class="text-red-400">SL: $130.86</span><br>
                                 <span class="text-green-400">TP: $178.44</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$151.5</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$161.4</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1031,7 +1681,7 @@
                                 <span class="text-red-400">SL: $92.93</span><br>
                                 <span class="text-green-400">TP: $126.72</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$107.4</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$111.1</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1045,7 +1695,7 @@
                                 <span class="text-red-400">SL: $18.22</span><br>
                                 <span class="text-green-400">TP: $24.84</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$20.64</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$20.84</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1059,7 +1709,7 @@
                                 <span class="text-red-400">SL: $3.11</span><br>
                                 <span class="text-green-400">TP: $4.24</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$3.63</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$3.64</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1073,7 +1723,7 @@
                                 <span class="text-red-400">SL: $1.51</span><br>
                                 <span class="text-green-400">TP: $2.06</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$1.89</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$1.87</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1087,7 +1737,7 @@
                                 <span class="text-red-400">SL: $21.45</span><br>
                                 <span class="text-green-400">TP: $29.26</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$27.06</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$27.5</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1101,7 +1751,7 @@
                                 <span class="text-red-400">SL: $42.28</span><br>
                                 <span class="text-green-400">TP: $57.65</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$48.06</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$48.0</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1115,7 +1765,7 @@
                                 <span class="text-red-400">SL: $2.64</span><br>
                                 <span class="text-green-400">TP: $3.6</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$3.15</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$3.14</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1129,7 +1779,7 @@
                                 <span class="text-red-400">SL: $4.87</span><br>
                                 <span class="text-green-400">TP: $6.64</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$5.52</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$5.5</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1143,7 +1793,7 @@
                                 <span class="text-red-400">SL: $40.0</span><br>
                                 <span class="text-green-400">TP: $54.55</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$47.34</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$47.98</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1157,7 +1807,7 @@
                                 <span class="text-red-400">SL: $3.33</span><br>
                                 <span class="text-green-400">TP: $4.54</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$3.58</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$3.6</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1171,7 +1821,7 @@
                                 <span class="text-red-400">SL: $39.62</span><br>
                                 <span class="text-green-400">TP: $54.02</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$44.54</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$44.64</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1185,7 +1835,7 @@
                                 <span class="text-red-400">SL: $4.21</span><br>
                                 <span class="text-green-400">TP: $5.74</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$5.01</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$4.99</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1199,7 +1849,7 @@
                                 <span class="text-red-400">SL: $2.9</span><br>
                                 <span class="text-green-400">TP: $3.96</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$3.51</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$3.57</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1227,7 +1877,7 @@
                                 <span class="text-red-400">SL: $6.45</span><br>
                                 <span class="text-green-400">TP: $8.8</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$7.45</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$7.37</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1241,7 +1891,7 @@
                                 <span class="text-red-400">SL: $131.65</span><br>
                                 <span class="text-green-400">TP: $179.52</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$151.5</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$161.4</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1255,7 +1905,7 @@
                                 <span class="text-red-400">SL: $19.25</span><br>
                                 <span class="text-green-400">TP: $26.26</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$20.64</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$20.84</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1269,7 +1919,7 @@
                                 <span class="text-red-400">SL: $1.5</span><br>
                                 <span class="text-green-400">TP: $2.05</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$1.89</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$1.87</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1283,7 +1933,7 @@
                                 <span class="text-red-400">SL: $4.78</span><br>
                                 <span class="text-green-400">TP: $6.52</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$5.52</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$5.5</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1297,7 +1947,7 @@
                                 <span class="text-red-400">SL: $40.55</span><br>
                                 <span class="text-green-400">TP: $55.3</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$44.54</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$44.64</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1311,7 +1961,7 @@
                                 <span class="text-red-400">SL: $6.82</span><br>
                                 <span class="text-green-400">TP: $9.3</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$7.66</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$8.1</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1325,7 +1975,7 @@
                                 <span class="text-red-400">SL: $0.62</span><br>
                                 <span class="text-green-400">TP: $0.84</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$0.76</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$0.77</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1353,7 +2003,7 @@
                                 <span class="text-red-400">SL: $6.53</span><br>
                                 <span class="text-green-400">TP: $8.9</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$7.45</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$7.37</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1367,7 +2017,7 @@
                                 <span class="text-red-400">SL: $131.65</span><br>
                                 <span class="text-green-400">TP: $179.52</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$151.5</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$161.4</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1381,7 +2031,7 @@
                                 <span class="text-red-400">SL: $19.25</span><br>
                                 <span class="text-green-400">TP: $26.26</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$20.64</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$20.84</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1395,7 +2045,7 @@
                                 <span class="text-red-400">SL: $1.5</span><br>
                                 <span class="text-green-400">TP: $2.05</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$1.89</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$1.87</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1409,7 +2059,7 @@
                                 <span class="text-red-400">SL: $4.78</span><br>
                                 <span class="text-green-400">TP: $6.52</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$5.52</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$5.5</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1423,7 +2073,7 @@
                                 <span class="text-red-400">SL: $40.55</span><br>
                                 <span class="text-green-400">TP: $55.3</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$44.54</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$44.64</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1437,7 +2087,7 @@
                                 <span class="text-red-400">SL: $6.82</span><br>
                                 <span class="text-green-400">TP: $9.3</span>
                             </td>
-                            <td class="p-3 text-right text-red-400 font-bold">$7.66</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$8.1</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1451,7 +2101,7 @@
                                 <span class="text-red-400">SL: $0.62</span><br>
                                 <span class="text-green-400">TP: $0.84</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$0.76</td>
+                            <td class="p-3 text-right text-green-400 font-bold">$0.77</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1479,7 +2129,7 @@
                                 <span class="text-red-400">SL: $6.53</span><br>
                                 <span class="text-green-400">TP: $8.9</span>
                             </td>
-                            <td class="p-3 text-right text-green-400 font-bold">$7.45</td>
+                            <td class="p-3 text-right text-red-400 font-bold">$7.37</td>
                             <td class="p-3 text-center leading-tight"><span class="px-2 py-1 bg-yellow-900/50 text-yellow-400 border border-yellow-700 rounded text-xs font-bold animate-pulse">⏳ 持倉 (Active)</span></td>
                         </tr>
         
@@ -1508,7 +2158,7 @@
             document.getElementById('btn-' + tabId.split('-')[1]).classList.add('tab-active');
         }
 
-        const signalsData = [{"ticker": "0267.HK", "stock_name": "\u4e2d\u4fe1\u80a1\u4efd", "tv_ticker": "HKEX:267", "price": 12.74, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 2, "sl": 11.47, "tp": 16.56, "rsi": 80.7, "dd_52w": -1.9, "turnover_m": 222.8, "div_yield": 5.19, "earn_label": "\u8870\u9000\u4e2d (-25.0%)", "pe_ratio": 5.54, "pb_ratio": 0.41, "roe": 7.93, "chart_dates": ["11-12", "11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13"], "chart_prices": [12.78, 12.94, 12.72, 12.66, 12.17, 12.02, 12.24, 12.02, 12.11, 12.17, 12.29, 12.29, 12.17, 12.14, 12.37, 12.33, 12.34, 12.39, 12.31, 12.09, 11.95, 12.05, 12.26, 12.24, 12.0, 12.04, 11.9, 11.95, 11.94, 11.92, 11.95, 12.05, 12.34, 12.06, 12.38, 12.09, 12.35, 12.33, 12.11, 12.12, 12.23, 12.25, 12.15, 11.99, 12.05, 12.0, 11.99, 11.97, 11.97, 11.95, 12.03, 12.32, 12.6, 12.93, 12.51, 12.2, 12.22, 12.34, 12.25, 12.39, 12.67, 12.89, 12.8, 12.53, 12.24, 12.38, 12.18, 12.41, 12.31, 12.42, 12.35, 12.52, 12.25, 12.07, 11.6, 11.86, 11.83, 11.37, 11.42, 11.42, 11.29, 11.32, 11.46, 11.42, 11.56, 11.44, 11.51, 11.23, 11.65, 11.93, 11.85, 11.83, 11.8, 11.82, 11.89, 11.92, 12.25, 12.31, 12.64, 12.74], "chart_sma20": [12.01, 12.08, 12.14, 12.22, 12.26, 12.28, 12.32, 12.34, 12.37, 12.38, 12.39, 12.4, 12.41, 12.4, 12.4, 12.4, 12.39, 12.38, 12.36, 12.33, 12.29, 12.24, 12.22, 12.2, 12.19, 12.19, 12.17, 12.17, 12.16, 12.15, 12.13, 12.12, 12.13, 12.12, 12.12, 12.11, 12.11, 12.11, 12.1, 12.1, 12.12, 12.13, 12.12, 12.11, 12.11, 12.11, 12.11, 12.11, 12.12, 12.12, 12.12, 12.13, 12.15, 12.19, 12.2, 12.2, 12.2, 12.2, 12.2, 12.22, 12.24, 12.27, 12.3, 12.33, 12.34, 12.36, 12.37, 12.39, 12.41, 12.43, 12.45, 12.46, 12.44, 12.4, 12.35, 12.33, 12.31, 12.27, 12.22, 12.18, 12.11, 12.03, 11.96, 11.91, 11.87, 11.83, 11.79, 11.73, 11.7, 11.68, 11.65, 11.62, 11.59, 11.58, 11.59, 11.6, 11.62, 11.67, 11.73, 11.79], "chart_lbb": [10.97, 11.0, 11.07, 11.23, 11.34, 11.41, 11.54, 11.63, 11.73, 11.77, 11.81, 11.82, 11.84, 11.84, 11.84, 11.83, 11.83, 11.83, 11.83, 11.81, 11.79, 11.84, 11.89, 11.94, 11.92, 11.92, 11.88, 11.86, 11.84, 11.81, 11.79, 11.78, 11.78, 11.77, 11.77, 11.77, 11.77, 11.78, 11.78, 11.78, 11.8, 11.81, 11.81, 11.79, 11.8, 11.8, 11.81, 11.81, 11.82, 11.82, 11.83, 11.84, 11.79, 11.7, 11.69, 11.7, 11.7, 11.7, 11.7, 11.71, 11.7, 11.65, 11.65, 11.68, 11.7, 11.74, 11.77, 11.82, 11.87, 11.94, 12.0, 12.01, 11.99, 11.98, 11.81, 11.75, 11.69, 11.51, 11.38, 11.26, 11.14, 11.08, 11.05, 11.01, 10.98, 10.94, 10.91, 10.87, 10.88, 10.92, 10.96, 11.05, 11.11, 11.13, 11.13, 11.12, 11.07, 11.05, 10.98, 10.94]}, {"ticker": "0522.HK", "stock_name": "ASMPT", "tv_ticker": "HKEX:522", "price": 117.7, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 1, "sl": 105.93, "tp": 153.01, "rsi": 61.3, "dd_52w": -0.4, "turnover_m": 207.0, "div_yield": 62.0, "earn_label": "\u672a\u516c\u4f48", "pe_ratio": 45.27, "pb_ratio": 2.89, "roe": 6.69, "chart_dates": ["11-12", "11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13"], "chart_prices": [79.3, 80.1, 77.9, 77.95, 76.0, 75.05, 75.85, 71.2, 70.85, 73.3, 72.5, 74.05, 75.3, 76.5, 76.45, 77.35, 78.05, 78.6, 77.85, 79.1, 77.1, 78.85, 78.75, 75.2, 74.75, 75.95, 75.45, 74.35, 77.35, 77.45, 77.4, 76.15, 77.25, 77.7, 81.2, 82.2, 85.25, 90.5, 89.0, 89.95, 90.05, 93.3, 94.35, 95.3, 97.85, 97.4, 97.6, 101.8, 108.2, 104.2, 102.8, 106.3, 109.5, 104.2, 103.9, 99.85, 104.2, 103.1, 96.3, 98.45, 101.0, 100.9, 105.0, 104.5, 104.2, 103.0, 104.9, 110.3, 111.6, 110.5, 114.0, 112.1, 108.4, 103.4, 108.0, 112.4, 111.1, 107.4, 112.0, 110.6, 109.3, 108.2, 107.5, 103.8, 109.0, 107.3, 105.2, 102.6, 104.3, 109.5, 107.2, 106.3, 103.0, 99.3, 102.8, 100.6, 111.0, 110.3, 114.2, 117.7], "chart_sma20": [84.43, 84.05, 83.53, 83.22, 82.66, 82.12, 81.74, 81.14, 80.18, 79.16, 78.42, 77.93, 77.59, 77.29, 77.03, 76.82, 76.61, 76.48, 76.25, 76.16, 76.05, 75.99, 76.03, 75.89, 75.83, 75.88, 75.86, 76.01, 76.34, 76.55, 76.79, 76.9, 76.99, 77.05, 77.29, 77.53, 77.89, 78.49, 79.05, 79.59, 80.24, 80.96, 81.74, 82.74, 83.9, 84.97, 86.08, 87.45, 88.99, 90.33, 91.6, 93.11, 94.72, 96.05, 97.18, 98.07, 99.01, 99.64, 100.01, 100.43, 100.98, 101.36, 101.89, 102.35, 102.67, 102.95, 103.31, 103.74, 103.91, 104.22, 104.78, 105.07, 105.02, 104.98, 105.18, 105.81, 106.16, 106.37, 107.16, 107.77, 108.18, 108.55, 108.67, 108.64, 108.88, 109.09, 109.11, 108.72, 108.36, 108.31, 107.97, 107.68, 107.41, 107.2, 106.94, 106.35, 106.35, 106.49, 106.6, 106.96], "chart_lbb": [77.22, 76.77, 76.04, 75.34, 74.38, 73.32, 72.53, 70.84, 69.79, 70.51, 70.18, 69.88, 69.7, 69.75, 69.77, 69.88, 70.13, 70.28, 70.65, 70.83, 70.9, 71.02, 70.98, 70.91, 70.82, 70.88, 70.86, 71.46, 72.45, 72.91, 73.68, 74.04, 74.24, 74.29, 73.99, 73.57, 72.63, 70.77, 70.03, 69.33, 69.05, 68.37, 67.86, 67.98, 68.18, 68.62, 69.45, 70.37, 70.27, 71.26, 72.77, 74.66, 76.48, 79.21, 81.54, 84.08, 86.16, 87.33, 88.62, 90.04, 91.8, 92.92, 93.99, 95.02, 95.61, 96.34, 97.16, 96.89, 96.45, 96.2, 95.69, 95.42, 95.46, 95.4, 95.53, 95.99, 96.09, 96.4, 98.09, 99.57, 100.61, 101.79, 102.1, 101.96, 102.54, 103.33, 103.39, 102.34, 101.84, 101.84, 102.07, 102.08, 101.44, 100.43, 99.91, 99.27, 99.28, 99.21, 98.92, 97.95]}, {"ticker": "1211.HK", "stock_name": "\u6bd4\u4e9e\u8fea\u80a1\u4efd", "tv_ticker": "HKEX:1211", "price": 110.3, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 1, "sl": 99.27, "tp": 143.39, "rsi": 60.5, "dd_52w": -29.8, "turnover_m": 4107.2, "div_yield": 1.38, "earn_label": "\u8870\u9000\u4e2d (-40.5%)", "pe_ratio": 26.84, "pb_ratio": 3.84, "roe": 14.77, "chart_dates": ["11-12", "11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13"], "chart_prices": [100.5, 102.8, 100.6, 100.7, 96.9, 96.05, 95.2, 92.75, 94.85, 95.75, 98.35, 97.0, 97.5, 97.95, 100.1, 98.15, 98.4, 99.15, 99.3, 98.0, 97.75, 97.35, 98.5, 96.0, 94.55, 95.25, 93.9, 93.7, 93.75, 93.1, 93.65, 97.1, 97.6, 95.1, 98.75, 95.8, 99.2, 95.3, 94.65, 94.55, 95.7, 97.25, 97.6, 99.1, 99.2, 100.7, 97.0, 99.05, 99.75, 99.6, 98.5, 98.3, 102.8, 101.8, 97.75, 91.0, 90.0, 90.0, 91.25, 92.3, 93.55, 95.8, 99.15, 98.55, 97.75, 97.85, 95.45, 100.1, 99.35, 98.75, 94.95, 94.95, 99.1, 96.2, 95.05, 92.6, 94.7, 98.05, 96.95, 98.15, 98.2, 96.75, 104.3, 104.5, 102.2, 103.2, 103.8, 102.4, 107.0, 106.4, 102.7, 106.5, 105.8, 105.8, 104.7, 103.9, 106.8, 101.8, 105.1, 110.3], "chart_sma20": [102.25, 101.96, 101.61, 101.48, 101.09, 100.7, 100.31, 99.75, 99.3, 98.8, 98.47, 98.12, 97.96, 97.9, 98.05, 98.19, 98.23, 98.29, 98.17, 98.0, 97.86, 97.59, 97.48, 97.25, 97.13, 97.09, 97.03, 97.08, 97.02, 96.89, 96.65, 96.66, 96.66, 96.52, 96.45, 96.34, 96.38, 96.18, 95.95, 95.78, 95.67, 95.67, 95.62, 95.78, 96.01, 96.28, 96.44, 96.71, 97.01, 97.33, 97.57, 97.63, 97.9, 98.23, 98.18, 97.94, 97.48, 97.22, 97.05, 96.93, 96.83, 96.75, 96.83, 96.8, 96.73, 96.59, 96.51, 96.56, 96.54, 96.5, 96.32, 96.16, 95.97, 95.69, 95.55, 95.63, 95.87, 96.27, 96.56, 96.85, 97.08, 97.13, 97.39, 97.68, 97.91, 98.17, 98.59, 98.71, 99.09, 99.47, 99.86, 100.44, 100.77, 101.25, 101.73, 102.3, 102.91, 103.09, 103.5, 104.11], "chart_lbb": [95.17, 95.53, 95.74, 95.65, 95.13, 94.49, 93.74, 92.6, 92.11, 92.12, 92.43, 92.67, 92.64, 92.61, 92.69, 92.97, 93.02, 93.06, 93.18, 93.24, 93.25, 93.6, 93.73, 93.76, 93.44, 93.33, 93.09, 93.34, 93.12, 92.64, 92.23, 92.23, 92.23, 92.08, 92.2, 92.15, 92.1, 92.09, 92.08, 91.98, 92.0, 92.0, 92.08, 91.91, 91.9, 91.7, 91.98, 92.3, 92.63, 93.22, 93.82, 93.87, 93.48, 93.69, 93.65, 92.47, 91.0, 89.97, 89.4, 89.07, 88.83, 88.75, 88.76, 88.76, 88.76, 88.81, 88.72, 88.69, 88.7, 88.72, 88.57, 88.44, 88.76, 89.02, 88.96, 89.23, 90.02, 91.04, 91.89, 92.59, 93.08, 93.17, 92.35, 91.74, 91.63, 91.47, 91.57, 91.5, 90.99, 90.74, 91.28, 91.7, 91.74, 92.22, 93.08, 94.75, 96.01, 96.56, 97.59, 98.02]}, {"ticker": "3618.HK", "stock_name": "\u91cd\u6176\u8fb2\u6751\u5546\u696d\u9280\u884c", "tv_ticker": "HKEX:3618", "price": 7.11, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 2, "sl": 6.4, "tp": 9.24, "rsi": 81.9, "dd_52w": -0.1, "turnover_m": 90.4, "div_yield": 4.84, "earn_label": "\u5f37\u52c1\u6210\u9577 (+29.4%)", "pe_ratio": 5.92, "pb_ratio": 0.53, "roe": 9.07, "chart_dates": ["11-12", "11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13"], "chart_prices": [6.49, 6.41, 6.46, 6.43, 6.21, 6.21, 6.3, 6.02, 6.01, 6.15, 6.22, 6.2, 6.05, 6.24, 6.27, 6.16, 6.16, 6.23, 6.05, 5.95, 5.87, 5.86, 5.75, 5.84, 5.76, 5.78, 5.91, 5.93, 5.88, 5.87, 5.89, 5.79, 5.83, 5.88, 5.99, 5.91, 5.87, 5.85, 5.92, 5.98, 5.98, 6.08, 6.0, 5.93, 5.83, 5.63, 5.83, 5.72, 5.73, 5.7, 5.7, 5.71, 5.89, 5.99, 5.83, 5.78, 5.75, 5.83, 5.98, 6.11, 6.14, 6.22, 6.24, 6.25, 6.09, 6.07, 6.06, 6.17, 6.1, 6.02, 5.97, 5.89, 5.75, 5.93, 5.87, 6.0, 6.02, 5.94, 5.97, 6.07, 6.18, 6.19, 6.29, 6.27, 6.3, 6.3, 6.41, 6.32, 6.53, 6.6, 6.73, 6.71, 6.83, 6.79, 6.94, 7.05, 6.97, 7.03, 7.1, 7.11], "chart_sma20": [6.28, 6.29, 6.3, 6.3, 6.29, 6.3, 6.3, 6.28, 6.27, 6.26, 6.26, 6.26, 6.25, 6.25, 6.25, 6.24, 6.24, 6.24, 6.23, 6.21, 6.18, 6.15, 6.12, 6.09, 6.06, 6.04, 6.02, 6.02, 6.01, 6.0, 5.98, 5.96, 5.95, 5.93, 5.92, 5.91, 5.89, 5.87, 5.87, 5.87, 5.87, 5.88, 5.9, 5.9, 5.91, 5.9, 5.89, 5.88, 5.88, 5.87, 5.86, 5.85, 5.86, 5.86, 5.85, 5.85, 5.84, 5.84, 5.84, 5.85, 5.86, 5.86, 5.88, 5.89, 5.91, 5.93, 5.94, 5.96, 5.98, 6.0, 6.01, 6.02, 6.01, 6.01, 6.01, 6.02, 6.04, 6.04, 6.04, 6.04, 6.04, 6.04, 6.04, 6.04, 6.05, 6.06, 6.08, 6.09, 6.11, 6.14, 6.18, 6.22, 6.27, 6.32, 6.37, 6.42, 6.47, 6.52, 6.58, 6.63], "chart_lbb": [6.12, 6.14, 6.13, 6.12, 6.11, 6.12, 6.12, 6.06, 6.02, 6.01, 6.01, 6.0, 5.99, 5.99, 5.98, 5.98, 5.97, 5.97, 5.95, 5.9, 5.87, 5.83, 5.78, 5.76, 5.71, 5.67, 5.67, 5.66, 5.65, 5.64, 5.64, 5.62, 5.61, 5.62, 5.64, 5.66, 5.67, 5.72, 5.74, 5.74, 5.73, 5.72, 5.73, 5.74, 5.75, 5.71, 5.7, 5.68, 5.66, 5.64, 5.62, 5.61, 5.61, 5.61, 5.61, 5.6, 5.59, 5.59, 5.59, 5.57, 5.56, 5.54, 5.51, 5.49, 5.5, 5.53, 5.54, 5.57, 5.6, 5.64, 5.68, 5.71, 5.69, 5.68, 5.69, 5.72, 5.76, 5.78, 5.78, 5.78, 5.78, 5.78, 5.77, 5.77, 5.76, 5.75, 5.73, 5.72, 5.7, 5.67, 5.65, 5.66, 5.7, 5.72, 5.75, 5.76, 5.79, 5.85, 5.91, 5.97]}];
+        const signalsData = [{"ticker": "0005.HK", "stock_name": "\u532f\u8c50\u63a7\u80a1", "tv_ticker": "HKEX:5", "price": 141.0, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 1, "sl": 126.9, "tp": 183.3, "rsi": 75.1, "dd_52w": -4.4, "turnover_m": 2810.7, "div_yield": 4.22, "earn_label": "\u5f37\u52c1\u6210\u9577 (+2397.9%)", "pe_ratio": 15.0, "pb_ratio": 1.74, "roe": 11.62, "chart_dates": ["11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13", "04-14"], "chart_prices": [113.91, 112.52, 111.72, 109.23, 107.44, 107.24, 104.74, 106.94, 106.44, 107.24, 108.63, 108.93, 110.13, 110.62, 110.82, 111.12, 110.62, 108.73, 109.13, 111.32, 113.61, 116.9, 115.81, 115.81, 117.1, 118.3, 118.9, 120.89, 121.89, 123.48, 121.49, 122.58, 121.79, 123.88, 124.48, 128.36, 126.77, 123.88, 124.38, 123.68, 125.97, 126.57, 127.77, 128.07, 126.57, 127.97, 127.77, 129.26, 129.56, 130.56, 134.04, 137.03, 137.13, 136.14, 134.24, 138.43, 138.53, 138.03, 134.34, 138.83, 139.83, 139.33, 139.03, 135.24, 133.95, 133.85, 135.44, 134.84, 142.22, 144.51, 146.8, 139.23, 135.34, 130.36, 133.45, 134.74, 129.46, 135.44, 132.55, 128.9, 122.5, 124.3, 124.8, 127.9, 124.0, 124.5, 118.9, 123.6, 125.0, 124.8, 124.8, 123.6, 125.8, 130.3, 130.0, 138.6, 138.9, 139.7, 138.8, 141.0], "chart_sma20": [105.97, 106.5, 107.1, 107.51, 107.81, 108.1, 108.26, 108.51, 108.78, 108.88, 108.96, 109.06, 109.21, 109.4, 109.59, 109.63, 109.68, 109.61, 109.46, 109.37, 109.36, 109.58, 109.78, 110.11, 110.59, 111.15, 111.86, 112.55, 113.33, 114.14, 114.78, 115.46, 116.05, 116.71, 117.39, 118.25, 119.06, 119.82, 120.58, 121.2, 121.82, 122.3, 122.9, 123.51, 123.98, 124.47, 124.91, 125.33, 125.71, 126.07, 126.69, 127.42, 128.18, 128.8, 129.29, 129.79, 130.38, 131.08, 131.58, 132.34, 133.03, 133.67, 134.23, 134.59, 134.96, 135.26, 135.64, 135.92, 136.55, 137.25, 137.89, 138.0, 137.91, 137.62, 137.58, 137.39, 136.94, 136.81, 136.72, 136.22, 135.36, 134.61, 133.9, 133.53, 133.03, 132.56, 131.74, 131.17, 130.31, 129.33, 128.23, 127.45, 126.97, 126.97, 126.79, 126.99, 127.46, 127.67, 127.99, 128.59], "chart_lbb": [96.93, 97.24, 98.12, 98.95, 99.77, 100.63, 101.24, 102.09, 103.34, 103.62, 103.79, 103.98, 104.19, 104.46, 104.74, 104.74, 104.77, 104.69, 104.68, 104.81, 104.86, 104.11, 103.7, 103.47, 103.39, 103.36, 103.94, 104.03, 104.35, 104.56, 105.03, 105.53, 106.07, 106.49, 107.0, 107.21, 108.01, 109.71, 111.63, 113.3, 114.5, 115.08, 115.96, 117.06, 118.16, 119.04, 119.97, 120.4, 120.72, 120.75, 120.73, 120.18, 120.24, 120.38, 120.79, 120.38, 120.31, 120.96, 121.87, 122.86, 123.49, 124.24, 124.95, 125.77, 126.97, 127.94, 129.23, 130.24, 131.03, 131.4, 130.85, 130.95, 130.77, 129.75, 129.63, 129.36, 128.18, 128.04, 127.81, 126.72, 124.22, 122.6, 121.32, 120.69, 119.51, 118.53, 116.51, 115.61, 115.43, 115.86, 117.44, 117.81, 118.06, 118.07, 118.3, 117.6, 116.7, 116.11, 115.56, 114.87]}, {"ticker": "0267.HK", "stock_name": "\u4e2d\u4fe1\u80a1\u4efd", "tv_ticker": "HKEX:267", "price": 12.97, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 3, "sl": 11.67, "tp": 16.86, "rsi": 82.0, "dd_52w": -0.2, "turnover_m": 225.1, "div_yield": 5.15, "earn_label": "\u8870\u9000\u4e2d (-25.0%)", "pe_ratio": 5.61, "pb_ratio": 0.42, "roe": 7.93, "chart_dates": ["11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13", "04-14"], "chart_prices": [12.94, 12.72, 12.66, 12.17, 12.02, 12.24, 12.02, 12.11, 12.17, 12.29, 12.29, 12.17, 12.14, 12.37, 12.33, 12.34, 12.39, 12.31, 12.09, 11.95, 12.05, 12.26, 12.24, 12.0, 12.04, 11.9, 11.95, 11.94, 11.92, 11.95, 12.05, 12.34, 12.06, 12.38, 12.09, 12.35, 12.33, 12.11, 12.12, 12.23, 12.25, 12.15, 11.99, 12.05, 12.0, 11.99, 11.97, 11.97, 11.95, 12.03, 12.32, 12.6, 12.93, 12.51, 12.2, 12.22, 12.34, 12.25, 12.39, 12.67, 12.89, 12.8, 12.53, 12.24, 12.38, 12.18, 12.41, 12.31, 12.42, 12.35, 12.52, 12.25, 12.07, 11.6, 11.86, 11.83, 11.37, 11.42, 11.42, 11.29, 11.32, 11.46, 11.42, 11.56, 11.44, 11.51, 11.23, 11.65, 11.93, 11.85, 11.83, 11.8, 11.82, 11.89, 11.92, 12.25, 12.31, 12.64, 12.74, 12.97], "chart_sma20": [12.08, 12.14, 12.22, 12.26, 12.28, 12.32, 12.34, 12.37, 12.38, 12.39, 12.4, 12.41, 12.4, 12.4, 12.4, 12.39, 12.38, 12.36, 12.33, 12.29, 12.24, 12.22, 12.2, 12.19, 12.19, 12.17, 12.17, 12.16, 12.15, 12.13, 12.12, 12.13, 12.12, 12.12, 12.11, 12.11, 12.11, 12.1, 12.1, 12.12, 12.13, 12.12, 12.11, 12.11, 12.11, 12.11, 12.11, 12.12, 12.12, 12.12, 12.13, 12.15, 12.19, 12.2, 12.2, 12.2, 12.2, 12.2, 12.22, 12.24, 12.27, 12.3, 12.33, 12.34, 12.36, 12.37, 12.39, 12.41, 12.43, 12.45, 12.46, 12.44, 12.4, 12.35, 12.33, 12.31, 12.27, 12.22, 12.18, 12.11, 12.03, 11.96, 11.91, 11.87, 11.83, 11.79, 11.73, 11.7, 11.68, 11.65, 11.62, 11.59, 11.58, 11.59, 11.6, 11.62, 11.67, 11.73, 11.79, 11.88], "chart_lbb": [11.0, 11.07, 11.23, 11.34, 11.41, 11.54, 11.63, 11.73, 11.77, 11.81, 11.82, 11.84, 11.84, 11.84, 11.83, 11.83, 11.83, 11.83, 11.81, 11.79, 11.84, 11.89, 11.94, 11.92, 11.92, 11.88, 11.86, 11.84, 11.81, 11.79, 11.78, 11.78, 11.77, 11.77, 11.77, 11.77, 11.78, 11.78, 11.78, 11.8, 11.81, 11.81, 11.79, 11.8, 11.8, 11.81, 11.81, 11.82, 11.82, 11.83, 11.84, 11.79, 11.7, 11.69, 11.7, 11.7, 11.7, 11.7, 11.71, 11.7, 11.65, 11.65, 11.68, 11.7, 11.74, 11.77, 11.82, 11.87, 11.94, 12.0, 12.01, 11.99, 11.98, 11.81, 11.75, 11.69, 11.51, 11.38, 11.26, 11.14, 11.08, 11.05, 11.01, 10.98, 10.94, 10.91, 10.87, 10.88, 10.92, 10.96, 11.05, 11.11, 11.13, 11.13, 11.12, 11.07, 11.05, 10.98, 10.94, 10.91]}, {"ticker": "0522.HK", "stock_name": "ASMPT", "tv_ticker": "HKEX:522", "price": 125.5, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 2, "sl": 112.95, "tp": 163.15, "rsi": 69.6, "dd_52w": -0.9, "turnover_m": 239.9, "div_yield": 58.0, "earn_label": "\u672a\u516c\u4f48", "pe_ratio": 48.27, "pb_ratio": 3.08, "roe": 6.69, "chart_dates": ["11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13", "04-14"], "chart_prices": [80.1, 77.9, 77.95, 76.0, 75.05, 75.85, 71.2, 70.85, 73.3, 72.5, 74.05, 75.3, 76.5, 76.45, 77.35, 78.05, 78.6, 77.85, 79.1, 77.1, 78.85, 78.75, 75.2, 74.75, 75.95, 75.45, 74.35, 77.35, 77.45, 77.4, 76.15, 77.25, 77.7, 81.2, 82.2, 85.25, 90.5, 89.0, 89.95, 90.05, 93.3, 94.35, 95.3, 97.85, 97.4, 97.6, 101.8, 108.2, 104.2, 102.8, 106.3, 109.5, 104.2, 103.9, 99.85, 104.2, 103.1, 96.3, 98.45, 101.0, 100.9, 105.0, 104.5, 104.2, 103.0, 104.9, 110.3, 111.6, 110.5, 114.0, 112.1, 108.4, 103.4, 108.0, 112.4, 111.1, 107.4, 112.0, 110.6, 109.3, 108.2, 107.5, 103.8, 109.0, 107.3, 105.2, 102.6, 104.3, 109.5, 107.2, 106.3, 103.0, 99.3, 102.8, 100.6, 111.0, 110.3, 114.2, 117.7, 125.5], "chart_sma20": [84.05, 83.53, 83.22, 82.66, 82.12, 81.74, 81.14, 80.18, 79.16, 78.42, 77.93, 77.59, 77.29, 77.03, 76.82, 76.61, 76.48, 76.25, 76.16, 76.05, 75.99, 76.03, 75.89, 75.83, 75.88, 75.86, 76.01, 76.34, 76.55, 76.79, 76.9, 76.99, 77.05, 77.29, 77.53, 77.89, 78.49, 79.05, 79.59, 80.24, 80.96, 81.74, 82.74, 83.9, 84.97, 86.08, 87.45, 88.99, 90.33, 91.6, 93.11, 94.72, 96.05, 97.18, 98.07, 99.01, 99.64, 100.01, 100.43, 100.98, 101.36, 101.89, 102.35, 102.67, 102.95, 103.31, 103.74, 103.91, 104.22, 104.78, 105.07, 105.02, 104.98, 105.18, 105.81, 106.16, 106.37, 107.16, 107.77, 108.18, 108.55, 108.67, 108.64, 108.88, 109.09, 109.11, 108.72, 108.36, 108.31, 107.97, 107.68, 107.41, 107.2, 106.94, 106.35, 106.35, 106.49, 106.6, 106.96, 107.77], "chart_lbb": [76.77, 76.04, 75.34, 74.38, 73.32, 72.53, 70.84, 69.79, 70.51, 70.18, 69.88, 69.7, 69.75, 69.77, 69.88, 70.13, 70.28, 70.65, 70.83, 70.9, 71.02, 70.98, 70.91, 70.82, 70.88, 70.86, 71.46, 72.45, 72.91, 73.68, 74.04, 74.24, 74.29, 73.99, 73.57, 72.63, 70.77, 70.03, 69.33, 69.05, 68.37, 67.86, 67.98, 68.18, 68.62, 69.45, 70.37, 70.27, 71.26, 72.77, 74.66, 76.48, 79.21, 81.54, 84.08, 86.16, 87.33, 88.62, 90.04, 91.8, 92.92, 93.99, 95.02, 95.61, 96.34, 97.16, 96.89, 96.45, 96.2, 95.69, 95.42, 95.46, 95.4, 95.53, 95.99, 96.09, 96.4, 98.09, 99.57, 100.61, 101.79, 102.1, 101.96, 102.54, 103.33, 103.39, 102.34, 101.84, 101.84, 102.07, 102.08, 101.44, 100.43, 99.91, 99.27, 99.28, 99.21, 98.92, 97.95, 95.54]}, {"ticker": "0576.HK", "stock_name": "\u6d59\u6c5f\u6eec\u676d\u752c", "tv_ticker": "HKEX:576", "price": 7.78, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 1, "sl": 7.0, "tp": 10.11, "rsi": 94.3, "dd_52w": -2.5, "turnover_m": 93.1, "div_yield": 5.83, "earn_label": "\u8870\u9000\u4e2d (-22.3%)", "pe_ratio": 7.63, "pb_ratio": 0.81, "roe": 9.43, "chart_dates": ["11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13", "04-14"], "chart_prices": [7.76, 7.68, 7.67, 7.55, 7.63, 7.68, 7.5, 7.57, 7.65, 7.73, 7.55, 7.55, 7.68, 7.65, 7.58, 7.61, 7.65, 7.62, 7.53, 7.51, 7.44, 7.42, 7.35, 7.29, 7.34, 7.43, 7.36, 7.37, 7.37, 7.34, 7.28, 7.15, 7.1, 7.19, 7.21, 7.2, 7.12, 6.97, 6.97, 6.99, 7.03, 6.93, 6.81, 6.79, 6.71, 6.9, 6.84, 6.81, 6.81, 6.88, 7.0, 7.15, 7.32, 7.37, 7.47, 7.52, 7.52, 7.55, 7.47, 7.44, 7.6, 7.7, 7.5, 7.28, 7.22, 6.95, 6.99, 7.1, 6.93, 6.83, 6.85, 7.01, 7.08, 6.9, 7.02, 7.07, 6.95, 6.94, 7.02, 7.03, 7.0, 6.95, 6.97, 6.88, 6.84, 6.85, 6.8, 6.86, 7.07, 7.11, 7.11, 7.19, 7.18, 7.33, 7.45, 7.5, 7.52, 7.66, 7.68, 7.78], "chart_sma20": [7.65, 7.65, 7.65, 7.64, 7.65, 7.65, 7.64, 7.64, 7.63, 7.63, 7.63, 7.62, 7.63, 7.63, 7.64, 7.64, 7.64, 7.64, 7.63, 7.62, 7.6, 7.59, 7.57, 7.56, 7.55, 7.53, 7.53, 7.52, 7.5, 7.48, 7.47, 7.45, 7.42, 7.4, 7.38, 7.36, 7.33, 7.3, 7.27, 7.24, 7.22, 7.2, 7.17, 7.15, 7.12, 7.09, 7.06, 7.04, 7.01, 6.98, 6.97, 6.97, 6.98, 6.99, 7.0, 7.02, 7.04, 7.07, 7.09, 7.12, 7.14, 7.18, 7.22, 7.24, 7.27, 7.27, 7.28, 7.29, 7.3, 7.3, 7.29, 7.28, 7.27, 7.25, 7.22, 7.2, 7.17, 7.14, 7.12, 7.1, 7.07, 7.03, 7.0, 6.98, 6.97, 6.96, 6.95, 6.94, 6.95, 6.96, 6.97, 6.98, 6.99, 7.01, 7.03, 7.05, 7.08, 7.12, 7.15, 7.19], "chart_lbb": [7.48, 7.48, 7.49, 7.48, 7.48, 7.48, 7.46, 7.46, 7.46, 7.46, 7.45, 7.45, 7.45, 7.46, 7.48, 7.49, 7.49, 7.49, 7.48, 7.47, 7.45, 7.42, 7.38, 7.33, 7.3, 7.29, 7.27, 7.25, 7.24, 7.23, 7.21, 7.15, 7.11, 7.09, 7.07, 7.06, 7.05, 7.01, 6.97, 6.94, 6.92, 6.88, 6.82, 6.76, 6.69, 6.68, 6.66, 6.65, 6.64, 6.65, 6.66, 6.66, 6.64, 6.62, 6.59, 6.55, 6.52, 6.5, 6.5, 6.51, 6.5, 6.5, 6.55, 6.6, 6.68, 6.69, 6.71, 6.76, 6.79, 6.78, 6.75, 6.73, 6.71, 6.67, 6.65, 6.64, 6.62, 6.61, 6.61, 6.61, 6.64, 6.72, 6.79, 6.8, 6.81, 6.79, 6.77, 6.77, 6.77, 6.78, 6.78, 6.77, 6.76, 6.74, 6.7, 6.66, 6.64, 6.61, 6.59, 6.56]}, {"ticker": "0992.HK", "stock_name": "\u806f\u60f3\u96c6\u5718", "tv_ticker": "HKEX:992", "price": 10.43, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 1, "sl": 9.39, "tp": 13.56, "rsi": 69.5, "dd_52w": -20.3, "turnover_m": 806.0, "div_yield": 3.87, "earn_label": "\u8870\u9000\u4e2d (-27.1%)", "pe_ratio": 10.98, "pb_ratio": 2.53, "roe": 24.17, "chart_dates": ["11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13", "04-14"], "chart_prices": [10.77, 10.41, 10.0, 9.59, 9.55, 9.64, 9.6, 9.66, 9.69, 9.61, 9.69, 9.6, 9.66, 9.86, 9.76, 9.82, 9.94, 9.86, 9.72, 9.72, 9.46, 9.7, 9.56, 9.66, 9.58, 9.4, 9.28, 9.27, 9.35, 9.32, 9.24, 9.31, 9.26, 9.55, 9.55, 9.41, 9.3, 8.78, 8.99, 8.99, 8.95, 9.0, 9.02, 8.88, 8.92, 8.86, 8.65, 8.64, 8.84, 8.72, 8.88, 9.07, 9.05, 8.88, 9.04, 9.18, 8.98, 9.31, 9.25, 9.19, 9.35, 9.43, 9.0, 9.26, 9.25, 9.22, 9.37, 9.53, 9.58, 9.61, 9.73, 9.47, 9.37, 9.24, 9.22, 9.41, 9.12, 9.46, 9.65, 9.56, 9.37, 9.54, 9.49, 9.61, 9.37, 9.24, 8.86, 9.24, 9.39, 9.37, 9.4, 9.23, 9.15, 9.5, 9.69, 10.12, 9.88, 10.11, 10.07, 10.43], "chart_sma20": [11.19, 11.14, 11.08, 11.0, 10.91, 10.83, 10.76, 10.67, 10.57, 10.48, 10.39, 10.31, 10.22, 10.15, 10.09, 10.02, 9.97, 9.92, 9.86, 9.81, 9.74, 9.71, 9.68, 9.69, 9.69, 9.68, 9.66, 9.64, 9.62, 9.61, 9.59, 9.57, 9.55, 9.54, 9.53, 9.51, 9.47, 9.42, 9.38, 9.35, 9.32, 9.29, 9.26, 9.22, 9.19, 9.16, 9.13, 9.1, 9.07, 9.04, 9.03, 9.01, 9.0, 8.97, 8.94, 8.93, 8.92, 8.94, 8.96, 8.97, 8.99, 9.01, 9.01, 9.03, 9.04, 9.06, 9.1, 9.14, 9.18, 9.22, 9.26, 9.28, 9.3, 9.32, 9.33, 9.34, 9.35, 9.35, 9.37, 9.39, 9.39, 9.4, 9.42, 9.44, 9.45, 9.45, 9.42, 9.41, 9.4, 9.39, 9.37, 9.36, 9.35, 9.36, 9.38, 9.42, 9.46, 9.49, 9.51, 9.55], "chart_lbb": [10.7, 10.55, 10.31, 9.98, 9.72, 9.52, 9.35, 9.21, 9.12, 9.03, 8.97, 8.91, 8.89, 8.9, 8.9, 8.95, 9.0, 9.05, 9.09, 9.21, 9.32, 9.43, 9.44, 9.45, 9.45, 9.41, 9.34, 9.28, 9.24, 9.2, 9.15, 9.12, 9.08, 9.09, 9.09, 9.09, 9.1, 8.97, 8.92, 8.88, 8.83, 8.81, 8.78, 8.75, 8.73, 8.7, 8.62, 8.54, 8.52, 8.48, 8.47, 8.47, 8.47, 8.5, 8.57, 8.6, 8.63, 8.62, 8.6, 8.6, 8.58, 8.56, 8.55, 8.56, 8.57, 8.59, 8.65, 8.71, 8.73, 8.79, 8.8, 8.83, 8.85, 8.92, 8.94, 8.96, 8.99, 8.99, 8.99, 9.01, 9.02, 9.02, 9.09, 9.11, 9.12, 9.13, 9.01, 8.99, 8.99, 8.99, 9.0, 8.99, 8.97, 8.98, 8.98, 8.9, 8.92, 8.88, 8.85, 8.77]}, {"ticker": "0998.HK", "stock_name": "\u4e2d\u4fe1\u9280\u884c", "tv_ticker": "HKEX:998", "price": 8.08, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 1, "sl": 7.27, "tp": 10.5, "rsi": 79.8, "dd_52w": -0.7, "turnover_m": 258.8, "div_yield": 5.33, "earn_label": "\u5f37\u52c1\u6210\u9577 (+16.0%)", "pe_ratio": 5.86, "pb_ratio": 0.54, "roe": 8.64, "chart_dates": ["11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13", "04-14"], "chart_prices": [7.62, 7.53, 7.49, 7.31, 7.32, 7.35, 7.27, 7.28, 7.44, 7.39, 7.3, 7.17, 7.17, 7.24, 7.16, 7.18, 7.15, 7.06, 6.99, 6.98, 6.99, 7.0, 7.01, 6.86, 6.89, 6.97, 6.91, 6.91, 6.91, 6.83, 6.91, 6.94, 6.91, 7.05, 6.96, 6.97, 6.99, 6.88, 6.87, 6.89, 7.14, 7.08, 7.17, 7.1, 7.1, 7.17, 7.0, 7.09, 6.93, 6.99, 7.22, 7.3, 7.4, 7.28, 7.26, 7.18, 7.18, 7.29, 7.35, 7.35, 7.58, 7.57, 7.4, 7.34, 7.31, 7.34, 7.48, 7.39, 7.32, 7.24, 7.21, 7.12, 7.13, 6.93, 7.05, 7.15, 7.04, 6.98, 6.98, 7.03, 7.13, 7.14, 7.38, 7.52, 7.4, 7.37, 7.25, 7.63, 7.92, 7.87, 7.85, 7.86, 7.9, 7.87, 7.92, 7.91, 7.9, 7.91, 7.99, 8.08], "chart_sma20": [7.31, 7.33, 7.36, 7.37, 7.38, 7.39, 7.39, 7.39, 7.39, 7.39, 7.4, 7.39, 7.39, 7.38, 7.37, 7.36, 7.35, 7.33, 7.3, 7.27, 7.24, 7.21, 7.19, 7.17, 7.14, 7.12, 7.11, 7.09, 7.06, 7.03, 7.01, 7.0, 6.99, 6.98, 6.97, 6.96, 6.95, 6.94, 6.94, 6.93, 6.94, 6.94, 6.95, 6.96, 6.97, 6.98, 6.99, 7.0, 7.0, 7.01, 7.02, 7.04, 7.06, 7.08, 7.09, 7.1, 7.11, 7.13, 7.16, 7.18, 7.2, 7.23, 7.24, 7.25, 7.26, 7.27, 7.29, 7.31, 7.33, 7.34, 7.34, 7.33, 7.32, 7.3, 7.29, 7.29, 7.28, 7.26, 7.25, 7.23, 7.21, 7.19, 7.18, 7.19, 7.2, 7.2, 7.19, 7.2, 7.23, 7.26, 7.29, 7.33, 7.37, 7.42, 7.46, 7.5, 7.54, 7.59, 7.64, 7.69], "chart_lbb": [6.94, 6.97, 7.03, 7.1, 7.14, 7.15, 7.15, 7.15, 7.15, 7.15, 7.16, 7.15, 7.12, 7.11, 7.08, 7.07, 7.04, 7.0, 6.96, 6.93, 6.92, 6.9, 6.9, 6.85, 6.81, 6.8, 6.77, 6.76, 6.76, 6.76, 6.77, 6.77, 6.76, 6.78, 6.79, 6.81, 6.83, 6.83, 6.82, 6.82, 6.79, 6.79, 6.77, 6.77, 6.78, 6.77, 6.78, 6.78, 6.79, 6.81, 6.81, 6.8, 6.78, 6.78, 6.79, 6.8, 6.81, 6.85, 6.88, 6.92, 6.89, 6.88, 6.88, 6.9, 6.91, 6.92, 6.96, 6.99, 7.06, 7.12, 7.12, 7.09, 7.06, 6.99, 6.96, 6.96, 6.93, 6.89, 6.86, 6.83, 6.84, 6.87, 6.87, 6.85, 6.84, 6.84, 6.86, 6.82, 6.74, 6.69, 6.67, 6.66, 6.66, 6.7, 6.74, 6.76, 6.82, 6.9, 6.99, 7.08]}, {"ticker": "1113.HK", "stock_name": "\u9577\u5be6\u96c6\u5718", "tv_ticker": "HKEX:1113", "price": 48.34, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 1, "sl": 43.51, "tp": 62.84, "rsi": 65.5, "dd_52w": -3.2, "turnover_m": 356.6, "div_yield": 3.73, "earn_label": "\u8870\u9000\u4e2d (-7.5%)", "pe_ratio": 15.59, "pb_ratio": 0.43, "roe": 2.75, "chart_dates": ["11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13", "04-14"], "chart_prices": [41.34, 40.72, 40.48, 39.44, 39.3, 39.88, 39.0, 39.64, 39.66, 40.12, 40.04, 39.92, 40.7, 40.96, 40.58, 40.7, 40.8, 39.92, 39.84, 39.12, 39.22, 39.98, 39.4, 38.7, 38.78, 39.2, 40.14, 40.02, 40.22, 40.22, 39.54, 39.62, 39.38, 40.3, 39.9, 41.14, 41.58, 42.24, 42.1, 42.64, 42.56, 42.28, 43.08, 43.08, 43.02, 43.34, 43.28, 44.04, 43.98, 45.36, 45.46, 46.2, 46.88, 45.84, 44.6, 45.42, 45.94, 46.72, 45.84, 46.62, 46.72, 46.82, 47.18, 46.9, 47.2, 46.8, 47.44, 47.52, 46.64, 48.06, 49.78, 48.72, 48.26, 47.0, 47.3, 47.9, 46.86, 47.86, 47.48, 46.52, 46.0, 46.24, 46.84, 47.94, 46.24, 45.68, 44.24, 44.64, 44.76, 44.34, 43.96, 43.78, 44.46, 45.58, 45.36, 46.9, 47.34, 48.04, 47.72, 48.34], "chart_sma20": [38.92, 39.11, 39.27, 39.35, 39.42, 39.52, 39.57, 39.65, 39.71, 39.77, 39.86, 39.93, 40.01, 40.08, 40.14, 40.19, 40.26, 40.25, 40.22, 40.11, 40.0, 39.96, 39.91, 39.87, 39.85, 39.81, 39.87, 39.89, 39.92, 39.92, 39.9, 39.88, 39.82, 39.78, 39.75, 39.77, 39.81, 39.93, 40.04, 40.22, 40.38, 40.5, 40.68, 40.9, 41.11, 41.32, 41.48, 41.68, 41.87, 42.12, 42.42, 42.75, 43.12, 43.4, 43.64, 43.85, 44.07, 44.29, 44.48, 44.68, 44.89, 45.11, 45.32, 45.51, 45.72, 45.89, 46.1, 46.27, 46.4, 46.54, 46.76, 46.88, 46.95, 47.01, 47.14, 47.27, 47.31, 47.37, 47.45, 47.45, 47.41, 47.38, 47.37, 47.42, 47.37, 47.31, 47.15, 47.01, 46.92, 46.73, 46.44, 46.19, 46.0, 45.93, 45.83, 45.78, 45.81, 45.82, 45.83, 45.92], "chart_lbb": [36.44, 36.67, 36.92, 37.12, 37.29, 37.51, 37.67, 37.89, 38.05, 38.15, 38.36, 38.6, 38.69, 38.72, 38.79, 38.84, 38.93, 38.92, 38.88, 38.8, 38.78, 38.79, 38.73, 38.59, 38.5, 38.43, 38.54, 38.56, 38.59, 38.59, 38.55, 38.53, 38.51, 38.56, 38.59, 38.52, 38.39, 38.14, 38.0, 37.92, 37.91, 37.9, 37.89, 38.08, 38.33, 38.52, 38.6, 38.67, 38.78, 38.77, 38.98, 39.18, 39.47, 39.81, 40.41, 40.75, 41.03, 41.16, 41.46, 41.64, 41.89, 42.26, 42.5, 42.81, 43.19, 43.58, 44.04, 44.37, 44.83, 44.88, 44.63, 44.6, 44.59, 44.71, 45.14, 45.41, 45.55, 45.62, 45.85, 45.84, 45.7, 45.61, 45.58, 45.63, 45.51, 45.32, 44.73, 44.35, 44.07, 43.72, 43.55, 43.28, 43.16, 43.12, 43.09, 43.17, 43.14, 43.12, 43.1, 42.98]}, {"ticker": "1258.HK", "stock_name": "\u4e2d\u570b\u6709\u8272\u7926\u696d", "tv_ticker": "HKEX:1258", "price": 13.6, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 1, "sl": 12.24, "tp": 17.68, "rsi": 68.1, "dd_52w": -28.6, "turnover_m": 244.4, "div_yield": 2.44, "earn_label": "\u8870\u9000\u4e2d (-21.4%)", "pe_ratio": 16.79, "pb_ratio": 2.73, "roe": 18.11, "chart_dates": ["11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13", "04-14"], "chart_prices": [15.43, 14.49, 14.19, 13.7, 14.02, 14.08, 13.29, 13.68, 13.97, 13.7, 14.54, 14.95, 16.5, 16.52, 16.76, 16.05, 16.81, 16.85, 15.53, 15.65, 15.05, 15.61, 15.3, 14.57, 14.63, 13.8, 14.37, 15.38, 14.8, 14.49, 14.72, 14.8, 14.75, 15.2, 14.41, 15.34, 15.04, 14.35, 14.73, 14.91, 15.7, 15.97, 15.77, 15.68, 15.43, 14.55, 14.99, 14.51, 14.89, 16.36, 16.18, 17.07, 18.23, 15.7, 14.44, 15.33, 16.05, 15.05, 14.65, 15.17, 15.26, 15.45, 15.74, 14.42, 15.2, 14.99, 15.67, 14.99, 15.38, 15.13, 15.01, 14.61, 13.88, 13.5, 13.25, 13.16, 12.92, 13.2, 13.11, 13.0, 12.8, 12.3, 12.19, 12.26, 11.15, 11.19, 10.57, 11.41, 12.1, 11.46, 11.39, 11.59, 11.49, 12.27, 11.86, 12.86, 12.78, 12.58, 13.33, 13.6], "chart_sma20": [14.14, 14.16, 14.19, 14.2, 14.21, 14.21, 14.2, 14.18, 14.15, 14.13, 14.11, 14.14, 14.28, 14.45, 14.6, 14.71, 14.84, 14.95, 15.0, 15.04, 15.02, 15.07, 15.13, 15.17, 15.2, 15.19, 15.24, 15.33, 15.37, 15.41, 15.42, 15.41, 15.32, 15.26, 15.14, 15.1, 15.01, 14.89, 14.85, 14.81, 14.84, 14.86, 14.89, 14.94, 14.98, 15.02, 15.05, 15.01, 15.01, 15.11, 15.18, 15.29, 15.47, 15.49, 15.49, 15.49, 15.54, 15.58, 15.57, 15.59, 15.56, 15.54, 15.54, 15.47, 15.46, 15.48, 15.52, 15.54, 15.57, 15.5, 15.45, 15.32, 15.11, 15.0, 14.94, 14.83, 14.67, 14.58, 14.5, 14.39, 14.27, 14.11, 13.94, 13.83, 13.62, 13.43, 13.18, 13.0, 12.84, 12.65, 12.47, 12.32, 12.2, 12.14, 12.07, 12.06, 12.05, 12.02, 12.03, 12.06], "chart_lbb": [12.98, 13.0, 13.07, 13.1, 13.11, 13.11, 13.07, 13.02, 13.0, 12.97, 13.01, 12.98, 12.75, 12.7, 12.61, 12.64, 12.59, 12.53, 12.57, 12.59, 12.58, 12.64, 12.73, 12.85, 12.93, 12.88, 13.07, 13.29, 13.41, 13.57, 13.59, 13.57, 13.54, 13.57, 13.57, 13.59, 13.73, 13.9, 13.91, 13.95, 13.9, 13.84, 13.8, 13.82, 13.85, 14.0, 14.08, 14.02, 14.03, 13.99, 13.98, 13.84, 13.53, 13.56, 13.56, 13.56, 13.61, 13.71, 13.7, 13.73, 13.7, 13.69, 13.68, 13.56, 13.54, 13.6, 13.65, 13.71, 13.76, 13.73, 13.69, 13.7, 14.06, 13.77, 13.5, 13.2, 12.94, 12.74, 12.55, 12.36, 12.16, 11.9, 11.71, 11.49, 11.1, 10.77, 10.44, 10.29, 10.35, 10.34, 10.38, 10.45, 10.45, 10.5, 10.51, 10.53, 10.54, 10.59, 10.56, 10.49]}, {"ticker": "1398.HK", "stock_name": "\u5de5\u5546\u9280\u884c", "tv_ticker": "HKEX:1398", "price": 7.03, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 1, "sl": 6.33, "tp": 9.14, "rsi": 69.0, "dd_52w": -0.8, "turnover_m": 1584.6, "div_yield": 4.97, "earn_label": "\u6eab\u548c\u5fa9\u7526 (+3.8%)", "pe_ratio": 6.11, "pb_ratio": 0.57, "roe": 8.98, "chart_dates": ["11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13", "04-14"], "chart_prices": [6.41, 6.41, 6.35, 6.27, 6.29, 6.37, 6.24, 6.33, 6.34, 6.34, 6.33, 6.28, 6.3, 6.27, 6.16, 6.22, 6.33, 6.11, 6.12, 6.08, 6.11, 6.14, 6.09, 5.98, 6.03, 6.12, 6.12, 6.13, 6.16, 6.14, 6.23, 6.27, 6.24, 6.34, 6.21, 6.21, 6.14, 6.1, 6.13, 6.24, 6.3, 6.24, 6.34, 6.35, 6.34, 6.31, 6.21, 6.17, 6.15, 6.24, 6.36, 6.59, 6.64, 6.49, 6.41, 6.38, 6.43, 6.46, 6.49, 6.52, 6.57, 6.56, 6.5, 6.41, 6.46, 6.41, 6.56, 6.45, 6.46, 6.42, 6.45, 6.35, 6.45, 6.34, 6.36, 6.41, 6.32, 6.28, 6.22, 6.31, 6.33, 6.48, 6.54, 6.57, 6.58, 6.6, 6.37, 6.51, 6.57, 6.56, 6.62, 6.74, 6.86, 6.88, 6.96, 6.85, 6.93, 6.97, 6.98, 7.03], "chart_sma20": [6.01, 6.04, 6.08, 6.1, 6.13, 6.16, 6.17, 6.19, 6.21, 6.23, 6.26, 6.28, 6.29, 6.3, 6.3, 6.31, 6.31, 6.31, 6.29, 6.28, 6.26, 6.25, 6.24, 6.22, 6.21, 6.2, 6.19, 6.18, 6.17, 6.16, 6.16, 6.16, 6.15, 6.16, 6.16, 6.16, 6.15, 6.15, 6.15, 6.16, 6.17, 6.17, 6.18, 6.2, 6.22, 6.23, 6.23, 6.23, 6.23, 6.24, 6.24, 6.26, 6.28, 6.29, 6.3, 6.31, 6.32, 6.34, 6.36, 6.37, 6.38, 6.4, 6.41, 6.41, 6.42, 6.42, 6.44, 6.45, 6.47, 6.48, 6.48, 6.47, 6.46, 6.45, 6.45, 6.45, 6.45, 6.44, 6.42, 6.41, 6.4, 6.4, 6.4, 6.41, 6.41, 6.42, 6.41, 6.42, 6.42, 6.43, 6.44, 6.46, 6.48, 6.51, 6.54, 6.56, 6.59, 6.62, 6.66, 6.7], "chart_lbb": [5.56, 5.58, 5.63, 5.67, 5.71, 5.76, 5.79, 5.82, 5.86, 5.91, 5.96, 6.05, 6.1, 6.13, 6.15, 6.16, 6.19, 6.15, 6.12, 6.09, 6.07, 6.06, 6.04, 6.0, 5.97, 5.97, 5.96, 5.96, 5.96, 5.97, 5.98, 5.98, 5.98, 5.97, 5.97, 5.97, 5.98, 5.98, 5.98, 5.99, 5.99, 5.99, 5.99, 6.02, 6.05, 6.06, 6.07, 6.08, 6.08, 6.09, 6.08, 6.04, 6.0, 5.99, 6.0, 6.01, 6.03, 6.06, 6.09, 6.1, 6.1, 6.12, 6.12, 6.13, 6.14, 6.14, 6.17, 6.22, 6.29, 6.33, 6.34, 6.33, 6.34, 6.32, 6.32, 6.32, 6.3, 6.28, 6.24, 6.23, 6.22, 6.23, 6.23, 6.22, 6.21, 6.21, 6.2, 6.2, 6.2, 6.2, 6.19, 6.18, 6.15, 6.14, 6.12, 6.13, 6.14, 6.17, 6.22, 6.26]}, {"ticker": "2269.HK", "stock_name": "\u85e5\u660e\u751f\u7269", "tv_ticker": "HKEX:2269", "price": 37.22, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 1, "sl": 33.5, "tp": 48.39, "rsi": 62.0, "dd_52w": -15.4, "turnover_m": 1147.4, "div_yield": 0, "earn_label": "\u5f37\u52c1\u6210\u9577 (+39.4%)", "pe_ratio": 27.98, "pb_ratio": 2.84, "roe": 11.64, "chart_dates": ["11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13", "04-14"], "chart_prices": [34.48, 33.32, 32.36, 31.9, 31.92, 32.2, 30.56, 31.8, 31.86, 31.94, 31.3, 31.16, 31.72, 31.38, 30.76, 32.94, 32.62, 32.94, 33.56, 33.58, 33.48, 33.48, 32.44, 32.06, 32.54, 32.72, 34.16, 33.14, 32.82, 32.42, 31.84, 32.06, 31.44, 32.54, 33.52, 34.1, 36.12, 36.44, 37.06, 37.58, 39.78, 40.0, 40.02, 39.78, 37.86, 37.1, 38.4, 38.96, 39.32, 38.22, 38.12, 38.3, 37.9, 37.0, 35.86, 36.98, 36.56, 37.52, 37.68, 38.24, 40.02, 41.4, 41.34, 40.0, 40.46, 40.3, 41.68, 40.72, 41.36, 38.28, 40.22, 38.74, 37.0, 35.3, 35.44, 36.34, 35.42, 36.62, 36.1, 35.12, 34.52, 34.86, 34.94, 35.52, 34.12, 33.82, 32.4, 33.88, 33.14, 31.54, 32.36, 31.36, 33.02, 34.86, 34.98, 35.18, 35.54, 35.9, 35.28, 37.22], "chart_sma20": [35.38, 35.21, 35.07, 34.87, 34.66, 34.48, 34.24, 34.01, 33.74, 33.5, 33.24, 32.98, 32.79, 32.62, 32.41, 32.31, 32.25, 32.19, 32.2, 32.21, 32.16, 32.17, 32.18, 32.18, 32.22, 32.24, 32.42, 32.49, 32.54, 32.56, 32.59, 32.63, 32.62, 32.68, 32.82, 32.87, 33.05, 33.22, 33.4, 33.6, 33.91, 34.24, 34.62, 35.0, 35.27, 35.49, 35.7, 35.99, 36.32, 36.61, 36.92, 37.23, 37.56, 37.78, 37.9, 38.04, 38.06, 38.12, 38.15, 38.18, 38.19, 38.26, 38.33, 38.34, 38.47, 38.63, 38.79, 38.88, 38.98, 38.99, 39.09, 39.11, 39.07, 38.98, 38.96, 38.93, 38.87, 38.83, 38.75, 38.59, 38.32, 37.99, 37.67, 37.45, 37.13, 36.81, 36.34, 36.0, 35.59, 35.25, 34.86, 34.49, 34.29, 34.27, 34.25, 34.19, 34.19, 34.16, 34.12, 34.22], "chart_lbb": [33.07, 32.81, 32.35, 31.84, 31.42, 31.11, 30.47, 30.23, 30.17, 30.14, 30.07, 30.02, 30.05, 29.98, 29.89, 30.08, 30.12, 30.23, 30.2, 30.19, 30.33, 30.32, 30.32, 30.33, 30.36, 30.37, 30.54, 30.6, 30.67, 30.72, 30.81, 30.96, 30.91, 31.07, 31.44, 31.39, 30.98, 30.66, 30.31, 29.99, 29.37, 28.95, 28.81, 28.89, 29.15, 29.44, 29.55, 29.8, 30.15, 30.67, 31.39, 32.17, 33.29, 34.21, 34.79, 35.45, 35.53, 35.69, 35.76, 35.81, 35.79, 35.57, 35.4, 35.39, 35.38, 35.51, 35.39, 35.37, 35.3, 35.31, 35.4, 35.44, 35.31, 34.96, 34.86, 34.76, 34.54, 34.41, 34.19, 33.76, 33.21, 32.88, 32.64, 32.45, 32.13, 31.84, 31.56, 31.57, 31.77, 31.25, 31.4, 31.21, 31.17, 31.17, 31.18, 31.24, 31.24, 31.31, 31.37, 31.17]}, {"ticker": "2618.HK", "stock_name": "\u4eac\u6771\u7269\u6d41", "tv_ticker": "HKEX:2618", "price": 15.27, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 1, "sl": 13.74, "tp": 19.85, "rsi": 71.5, "dd_52w": -9.3, "turnover_m": 238.4, "div_yield": 0, "earn_label": "\u6eab\u548c\u5fa9\u7526 (+12.9%)", "pe_ratio": 12.83, "pb_ratio": 1.53, "roe": 11.23, "chart_dates": ["11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13", "04-14"], "chart_prices": [12.9, 12.4, 12.27, 12.05, 12.14, 12.12, 11.82, 11.95, 12.03, 12.23, 12.22, 12.17, 12.44, 12.48, 12.29, 12.34, 12.4, 12.14, 12.01, 12.01, 12.04, 12.16, 12.0, 11.75, 11.76, 11.67, 11.83, 11.73, 11.8, 11.76, 11.55, 11.61, 11.42, 11.82, 11.65, 11.63, 11.55, 11.24, 11.6, 11.6, 11.82, 11.63, 11.68, 11.51, 11.27, 11.29, 11.37, 11.52, 11.38, 11.29, 11.47, 11.54, 11.38, 11.19, 10.95, 10.93, 11.04, 11.25, 11.1, 11.29, 11.48, 11.52, 11.32, 11.3, 11.27, 11.14, 11.52, 11.28, 11.29, 11.07, 11.17, 10.85, 10.71, 10.45, 10.27, 12.63, 12.83, 13.29, 13.63, 14.2, 13.64, 13.54, 14.0, 14.41, 14.13, 13.94, 13.48, 13.8, 13.83, 13.86, 13.99, 13.6, 13.65, 14.14, 14.12, 14.41, 14.45, 14.44, 14.44, 15.27], "chart_sma20": [12.59, 12.59, 12.6, 12.58, 12.56, 12.55, 12.51, 12.47, 12.44, 12.42, 12.4, 12.38, 12.36, 12.36, 12.35, 12.34, 12.35, 12.32, 12.27, 12.22, 12.18, 12.17, 12.15, 12.14, 12.12, 12.1, 12.1, 12.08, 12.07, 12.05, 12.02, 11.99, 11.94, 11.9, 11.87, 11.84, 11.79, 11.75, 11.73, 11.71, 11.7, 11.67, 11.66, 11.64, 11.62, 11.6, 11.58, 11.57, 11.55, 11.52, 11.52, 11.51, 11.51, 11.48, 11.45, 11.41, 11.39, 11.39, 11.36, 11.35, 11.33, 11.32, 11.3, 11.29, 11.29, 11.29, 11.29, 11.28, 11.28, 11.27, 11.25, 11.22, 11.18, 11.15, 11.11, 11.2, 11.29, 11.39, 11.52, 11.66, 11.77, 11.87, 12.0, 12.16, 12.3, 12.44, 12.54, 12.67, 12.79, 12.93, 13.07, 13.21, 13.36, 13.54, 13.74, 13.82, 13.91, 13.96, 14.0, 14.06], "chart_lbb": [12.14, 12.13, 12.18, 12.11, 12.05, 12.01, 11.88, 11.8, 11.75, 11.73, 11.71, 11.69, 11.69, 11.69, 11.69, 11.68, 11.69, 11.68, 11.69, 11.74, 11.82, 11.82, 11.81, 11.75, 11.69, 11.63, 11.63, 11.59, 11.57, 11.53, 11.46, 11.41, 11.34, 11.37, 11.36, 11.36, 11.38, 11.3, 11.29, 11.29, 11.3, 11.34, 11.36, 11.35, 11.29, 11.24, 11.22, 11.21, 11.2, 11.18, 11.17, 11.17, 11.17, 11.14, 11.04, 10.95, 10.9, 10.9, 10.87, 10.87, 10.91, 10.91, 10.93, 10.93, 10.93, 10.92, 10.91, 10.92, 10.92, 10.89, 10.89, 10.84, 10.75, 10.6, 10.45, 10.25, 10.1, 9.9, 9.73, 9.52, 9.45, 9.43, 9.4, 9.37, 9.41, 9.52, 9.61, 9.75, 9.91, 10.13, 10.36, 10.7, 11.14, 11.77, 12.85, 13.06, 13.24, 13.33, 13.35, 13.2]}, {"ticker": "3618.HK", "stock_name": "\u91cd\u6176\u8fb2\u6751\u5546\u696d\u9280\u884c", "tv_ticker": "HKEX:3618", "price": 7.2, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 3, "sl": 6.48, "tp": 9.36, "rsi": 81.6, "dd_52w": -1.0, "turnover_m": 91.7, "div_yield": 4.84, "earn_label": "\u5f37\u52c1\u6210\u9577 (+29.4%)", "pe_ratio": 6.0, "pb_ratio": 0.54, "roe": 9.07, "chart_dates": ["11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13", "04-14"], "chart_prices": [6.41, 6.46, 6.43, 6.21, 6.21, 6.3, 6.02, 6.01, 6.15, 6.22, 6.2, 6.05, 6.24, 6.27, 6.16, 6.16, 6.23, 6.05, 5.95, 5.87, 5.86, 5.75, 5.84, 5.76, 5.78, 5.91, 5.93, 5.88, 5.87, 5.89, 5.79, 5.83, 5.88, 5.99, 5.91, 5.87, 5.85, 5.92, 5.98, 5.98, 6.08, 6.0, 5.93, 5.83, 5.63, 5.83, 5.72, 5.73, 5.7, 5.7, 5.71, 5.89, 5.99, 5.83, 5.78, 5.75, 5.83, 5.98, 6.11, 6.14, 6.22, 6.24, 6.25, 6.09, 6.07, 6.06, 6.17, 6.1, 6.02, 5.97, 5.89, 5.75, 5.93, 5.87, 6.0, 6.02, 5.94, 5.97, 6.07, 6.18, 6.19, 6.29, 6.27, 6.3, 6.3, 6.41, 6.32, 6.53, 6.6, 6.73, 6.71, 6.83, 6.79, 6.94, 7.05, 6.97, 7.03, 7.1, 7.11, 7.2], "chart_sma20": [6.29, 6.3, 6.3, 6.29, 6.3, 6.3, 6.28, 6.27, 6.26, 6.26, 6.26, 6.25, 6.25, 6.25, 6.24, 6.24, 6.24, 6.23, 6.21, 6.18, 6.15, 6.12, 6.09, 6.06, 6.04, 6.02, 6.02, 6.01, 6.0, 5.98, 5.96, 5.95, 5.93, 5.92, 5.91, 5.89, 5.87, 5.87, 5.87, 5.87, 5.88, 5.9, 5.9, 5.91, 5.9, 5.89, 5.88, 5.88, 5.87, 5.86, 5.85, 5.86, 5.86, 5.85, 5.85, 5.84, 5.84, 5.84, 5.85, 5.86, 5.86, 5.88, 5.89, 5.91, 5.93, 5.94, 5.96, 5.98, 6.0, 6.01, 6.02, 6.01, 6.01, 6.01, 6.02, 6.04, 6.04, 6.04, 6.04, 6.04, 6.04, 6.04, 6.04, 6.05, 6.06, 6.08, 6.09, 6.11, 6.14, 6.18, 6.22, 6.27, 6.32, 6.37, 6.42, 6.47, 6.52, 6.58, 6.63, 6.68], "chart_lbb": [6.14, 6.13, 6.12, 6.11, 6.12, 6.12, 6.06, 6.02, 6.01, 6.01, 6.0, 5.99, 5.99, 5.98, 5.98, 5.97, 5.97, 5.95, 5.9, 5.87, 5.83, 5.78, 5.76, 5.71, 5.67, 5.67, 5.66, 5.65, 5.64, 5.64, 5.62, 5.61, 5.62, 5.64, 5.66, 5.67, 5.72, 5.74, 5.74, 5.73, 5.72, 5.73, 5.74, 5.75, 5.71, 5.7, 5.68, 5.66, 5.64, 5.62, 5.61, 5.61, 5.61, 5.61, 5.6, 5.59, 5.59, 5.59, 5.57, 5.56, 5.54, 5.51, 5.49, 5.5, 5.53, 5.54, 5.57, 5.6, 5.64, 5.68, 5.71, 5.69, 5.68, 5.69, 5.72, 5.76, 5.78, 5.78, 5.78, 5.78, 5.78, 5.77, 5.77, 5.76, 5.75, 5.73, 5.72, 5.7, 5.67, 5.65, 5.66, 5.7, 5.72, 5.75, 5.76, 5.79, 5.85, 5.91, 5.97, 6.01]}, {"ticker": "3988.HK", "stock_name": "\u4e2d\u570b\u9280\u884c", "tv_ticker": "HKEX:3988", "price": 5.11, "type": "\u6d77\u9f9c\u7a81\u7834 (\u9806\u52e2)", "trigger_days": 1, "sl": 4.6, "tp": 6.64, "rsi": 78.1, "dd_52w": -0.2, "turnover_m": 1427.4, "div_yield": 5.02, "earn_label": "\u8870\u9000\u4e2d (-7.2%)", "pe_ratio": 6.01, "pb_ratio": 0.53, "roe": 8.37, "chart_dates": ["11-13", "11-14", "11-17", "11-18", "11-19", "11-20", "11-21", "11-24", "11-25", "11-26", "11-27", "11-28", "12-01", "12-02", "12-03", "12-04", "12-05", "12-08", "12-09", "12-10", "12-11", "12-12", "12-15", "12-16", "12-17", "12-18", "12-19", "12-22", "12-23", "12-24", "12-29", "12-30", "12-31", "01-02", "01-05", "01-06", "01-07", "01-08", "01-09", "01-12", "01-13", "01-14", "01-15", "01-16", "01-19", "01-20", "01-21", "01-22", "01-23", "01-26", "01-27", "01-28", "01-29", "01-30", "02-02", "02-03", "02-04", "02-05", "02-06", "02-09", "02-10", "02-11", "02-12", "02-13", "02-16", "02-20", "02-23", "02-24", "02-25", "02-26", "02-27", "03-02", "03-03", "03-04", "03-05", "03-06", "03-09", "03-10", "03-11", "03-12", "03-13", "03-16", "03-17", "03-18", "03-19", "03-20", "03-23", "03-24", "03-25", "03-26", "03-27", "03-30", "03-31", "04-01", "04-02", "04-08", "04-09", "04-10", "04-13", "04-14"], "chart_prices": [4.63, 4.62, 4.6, 4.53, 4.54, 4.63, 4.54, 4.6, 4.63, 4.63, 4.61, 4.56, 4.55, 4.57, 4.48, 4.51, 4.55, 4.43, 4.4, 4.39, 4.39, 4.42, 4.4, 4.32, 4.34, 4.38, 4.42, 4.4, 4.43, 4.43, 4.44, 4.49, 4.46, 4.53, 4.46, 4.45, 4.45, 4.42, 4.39, 4.44, 4.48, 4.48, 4.52, 4.5, 4.49, 4.47, 4.46, 4.47, 4.46, 4.47, 4.51, 4.67, 4.76, 4.67, 4.62, 4.6, 4.65, 4.68, 4.66, 4.7, 4.72, 4.72, 4.72, 4.65, 4.67, 4.67, 4.76, 4.69, 4.68, 4.65, 4.64, 4.53, 4.56, 4.47, 4.47, 4.52, 4.48, 4.49, 4.51, 4.55, 4.55, 4.58, 4.65, 4.68, 4.67, 4.7, 4.59, 4.7, 4.8, 4.84, 4.86, 4.89, 4.97, 5.01, 5.06, 5.01, 5.03, 5.04, 5.04, 5.11], "chart_sma20": [4.36, 4.39, 4.41, 4.42, 4.44, 4.46, 4.47, 4.48, 4.5, 4.52, 4.53, 4.54, 4.55, 4.56, 4.56, 4.56, 4.57, 4.57, 4.56, 4.55, 4.54, 4.53, 4.52, 4.51, 4.5, 4.48, 4.48, 4.47, 4.46, 4.45, 4.44, 4.44, 4.43, 4.43, 4.43, 4.43, 4.42, 4.42, 4.42, 4.42, 4.43, 4.43, 4.44, 4.45, 4.45, 4.46, 4.46, 4.46, 4.46, 4.47, 4.47, 4.48, 4.49, 4.5, 4.51, 4.52, 4.53, 4.54, 4.55, 4.57, 4.58, 4.59, 4.6, 4.61, 4.62, 4.63, 4.64, 4.65, 4.66, 4.67, 4.68, 4.67, 4.66, 4.65, 4.64, 4.64, 4.63, 4.62, 4.61, 4.61, 4.6, 4.59, 4.59, 4.59, 4.59, 4.59, 4.58, 4.58, 4.59, 4.6, 4.61, 4.63, 4.65, 4.68, 4.71, 4.73, 4.76, 4.78, 4.81, 4.84], "chart_lbb": [4.1, 4.11, 4.14, 4.16, 4.18, 4.21, 4.23, 4.26, 4.28, 4.3, 4.33, 4.38, 4.41, 4.43, 4.45, 4.46, 4.48, 4.46, 4.43, 4.4, 4.38, 4.36, 4.35, 4.32, 4.29, 4.28, 4.28, 4.27, 4.28, 4.29, 4.29, 4.3, 4.31, 4.31, 4.31, 4.32, 4.33, 4.33, 4.32, 4.33, 4.33, 4.33, 4.33, 4.35, 4.37, 4.38, 4.39, 4.39, 4.4, 4.4, 4.4, 4.37, 4.33, 4.32, 4.32, 4.32, 4.33, 4.34, 4.36, 4.37, 4.37, 4.38, 4.38, 4.4, 4.41, 4.43, 4.45, 4.48, 4.52, 4.56, 4.6, 4.57, 4.55, 4.51, 4.48, 4.47, 4.45, 4.43, 4.42, 4.41, 4.41, 4.41, 4.41, 4.41, 4.41, 4.41, 4.42, 4.42, 4.4, 4.38, 4.37, 4.36, 4.34, 4.34, 4.34, 4.35, 4.38, 4.41, 4.44, 4.47]}];
         let myChart = null;
 
         function loadChart(ticker) {
