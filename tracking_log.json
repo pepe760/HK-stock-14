@@ -2377,5 +2377,44 @@
     "status": "Active",
     "exit_date": "-",
     "financial_data": "股息: 3.52% | 動能: 衰退中 (-33.6%)<br>P/E: 4.57 | P/B: 1.19 | ROE: 27.72%"
+  },
+  {
+    "date": "2026-05-01",
+    "ticker": "0857.HK",
+    "stock_name": "中國石油股份",
+    "type": "海龜突破 (順勢)",
+    "price": 12.03,
+    "current_price": 12.03,
+    "sl": 10.83,
+    "tp": 15.64,
+    "status": "Active",
+    "exit_date": "-",
+    "financial_data": "股息: 4.36% | 動能: 衰退中 (-0.9%)<br>P/E: 12.15 | P/B: 1.21 | ROE: 9.81%"
+  },
+  {
+    "date": "2026-05-01",
+    "ticker": "0981.HK",
+    "stock_name": "中芯國際",
+    "type": "海龜突破 (順勢)",
+    "price": 70.9,
+    "current_price": 70.9,
+    "sl": 63.81,
+    "tp": 92.17,
+    "status": "Active",
+    "exit_date": "-",
+    "financial_data": "股息: 0% | 動能: 強勁成長 (+115.4%)<br>P/E: 101.29 | P/B: 3.51 | ROE: 2.96%"
+  },
+  {
+    "date": "2026-05-01",
+    "ticker": "2628.HK",
+    "stock_name": "中國人壽",
+    "type": "海龜突破 (順勢)",
+    "price": 28.62,
+    "current_price": 28.62,
+    "sl": 25.76,
+    "tp": 37.21,
+    "status": "Active",
+    "exit_date": "-",
+    "financial_data": "股息: 3.37% | 動能: 衰退中 (-15.2%)<br>P/E: 4.88 | P/B: 1.19 | ROE: 25.48%"
   }
 ]
