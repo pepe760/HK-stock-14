@@ -4275,5 +4275,44 @@
     "status": "Active",
     "exit_date": "-",
     "financial_data": "股息: 6.58% | 動能: 強勁成長 (+59.2%)<br>P/E: 7.3 | P/B: 0.51 | ROE: 7.17%"
+  },
+  {
+    "date": "2026-05-25",
+    "ticker": "0780.HK",
+    "stock_name": "同程旅行",
+    "type": "RSI 超跌抄底 (逆勢)",
+    "price": 14.89,
+    "current_price": 14.89,
+    "sl": 13.1,
+    "tp": 17.87,
+    "status": "Active",
+    "exit_date": "-",
+    "financial_data": "股息: 1.68% | 動能: 溫和復甦 (+13.8%)<br>P/E: 12.84 | P/B: 1.33 | ROE: 11.1%"
+  },
+  {
+    "date": "2026-05-25",
+    "ticker": "1030.HK",
+    "stock_name": "新城發展",
+    "type": "RSI 超跌抄底 (逆勢)",
+    "price": 1.86,
+    "current_price": 1.86,
+    "sl": 1.64,
+    "tp": 2.23,
+    "status": "Active",
+    "exit_date": "-",
+    "financial_data": "股息: 0% | 動能: 衰退中 (-43.9%)<br>P/E: 26.57 | P/B: 0.24 | ROE: 0.38%"
+  },
+  {
+    "date": "2026-05-25",
+    "ticker": "2858.HK",
+    "stock_name": "易鑫集團",
+    "type": "RSI 超跌抄底 (逆勢)",
+    "price": 1.46,
+    "current_price": 1.46,
+    "sl": 1.28,
+    "tp": 1.75,
+    "status": "Active",
+    "exit_date": "-",
+    "financial_data": "股息: 6.85% | 動能: 強勁成長 (+59.2%)<br>P/E: 7.3 | P/B: 0.51 | ROE: 7.17%"
   }
 ]
