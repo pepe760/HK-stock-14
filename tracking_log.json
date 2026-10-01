@@ -12244,5 +12244,18 @@
     "status": "Active",
     "exit_date": "-",
     "financial_data": "股息: 3.34% | 動能: 強勁成長 (+28.5%)<br>P/E: 8.04 | P/B: 1.4 | ROE: 17.42%"
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "0175.HK",
+    "stock_name": "吉利汽車",
+    "type": "RSI 超跌抄底 (逆勢)",
+    "price": 14.55,
+    "current_price": 14.55,
+    "sl": 12.8,
+    "tp": 17.46,
+    "status": "Active",
+    "exit_date": "-",
+    "financial_data": "股息: 3.44% | 動能: 強勁成長 (+28.5%)<br>P/E: 8.04 | P/B: 1.41 | ROE: 17.42%"
   }
 ]
