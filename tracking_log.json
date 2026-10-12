@@ -12504,5 +12504,31 @@
     "status": "Active",
     "exit_date": "-",
     "financial_data": "股息: 0% | 動能: 強勁成長 (+377.6%)<br>P/E: 205.54 | P/B: 2.93 | ROE: -0.42%"
+  },
+  {
+    "date": "2026-10-12",
+    "ticker": "1347.HK",
+    "stock_name": "華虹半導體",
+    "type": "RSI 超跌抄底 (逆勢)",
+    "price": 94.55,
+    "current_price": 94.55,
+    "sl": 83.2,
+    "tp": 113.46,
+    "status": "Active",
+    "exit_date": "-",
+    "financial_data": "股息: 0% | 動能: 強勁成長 (+377.6%)<br>P/E: 195.33 | P/B: 2.79 | ROE: -0.42%"
+  },
+  {
+    "date": "2026-10-12",
+    "ticker": "3692.HK",
+    "stock_name": "翰森製藥",
+    "type": "RSI 超跌抄底 (逆勢)",
+    "price": 31.54,
+    "current_price": 31.54,
+    "sl": 27.76,
+    "tp": 37.85,
+    "status": "Active",
+    "exit_date": "-",
+    "financial_data": "股息: 1.54% | 動能: 強勁成長 (+33.2%)<br>P/E: 25.66 | P/B: 4.33 | ROE: 19.4%"
   }
 ]
