@@ -12881,5 +12881,44 @@
     "status": "Active",
     "exit_date": "-",
     "financial_data": "股息: 1.87% | 動能: 溫和復甦 (+10.5%)<br>P/E: 12.81 | P/B: 6.95 | ROE: 71.22%"
+  },
+  {
+    "date": "2026-10-19",
+    "ticker": "2628.HK",
+    "stock_name": "中國人壽",
+    "type": "RSI 超跌抄底 (逆勢)",
+    "price": 23.62,
+    "current_price": 23.62,
+    "sl": 20.79,
+    "tp": 28.34,
+    "status": "Active",
+    "exit_date": "-",
+    "financial_data": "股息: 4.77% | 動能: 強勁成長 (+849.0%)<br>P/E: 2.42 | P/B: 0.86 | ROE: 41.3%"
+  },
+  {
+    "date": "2026-10-19",
+    "ticker": "3800.HK",
+    "stock_name": "協鑫科技",
+    "type": "RSI 超跌抄底 (逆勢)",
+    "price": 0.65,
+    "current_price": 0.65,
+    "sl": 0.58,
+    "tp": 0.79,
+    "status": "Active",
+    "exit_date": "-",
+    "financial_data": "股息: 0% | 動能: 溫和復甦 (+0.7%)<br>P/E: N/A | P/B: 0.5 | ROE: -7.66%"
+  },
+  {
+    "date": "2026-10-19",
+    "ticker": "9992.HK",
+    "stock_name": "泡泡瑪特",
+    "type": "RSI 超跌抄底 (逆勢)",
+    "price": 142.2,
+    "current_price": 142.2,
+    "sl": 125.14,
+    "tp": 170.64,
+    "status": "Active",
+    "exit_date": "-",
+    "financial_data": "股息: 1.92% | 動能: 溫和復甦 (+10.5%)<br>P/E: 12.81 | P/B: 6.95 | ROE: 71.22%"
   }
 ]
